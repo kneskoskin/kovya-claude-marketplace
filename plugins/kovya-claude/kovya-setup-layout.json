@@ -1,0 +1,7 @@
+{
+  "schema_version": "kovya.setup-layout.v1",
+  "kind": "selected_plugin",
+  "host": "claude_code",
+  "node_sha256": "63c259c81e5d472b5f11c8d506070130cb04a1ecf84b80377a34ed6ec9048088",
+  "wrapper_sha256": "fdf29218e19e051da507e66dc8f2157a7af3d62828936900e9a37ebb7c103126"
+}

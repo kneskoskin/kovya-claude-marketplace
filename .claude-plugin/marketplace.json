@@ -1,0 +1,17 @@
+{
+  "name": "kovya-claude-marketplace",
+  "owner": {
+    "name": "Kovya"
+  },
+  "plugins": [
+    {
+      "name": "kovya-claude",
+      "source": "./plugins/kovya-claude",
+      "version": "0.1.0-preview.10.6",
+      "description": "Kovya memory connector for local Claude Code on Windows x64."
+    }
+  ],
+  "metadata": {
+    "description": "Kovya memory connector for local Claude Code CLI and Claude Code in Desktop on Windows x64."
+  }
+}

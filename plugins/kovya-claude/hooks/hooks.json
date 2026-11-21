@@ -1,0 +1,55 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/connector/claude-code/client/kovya_windows_broker_native.exe",
+            "timeout": 9,
+            "args": [
+              "launch",
+              "worker",
+              "claude_code",
+              "SessionStart"
+            ]
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/connector/claude-code/client/kovya_windows_broker_native.exe",
+            "timeout": 9,
+            "args": [
+              "launch",
+              "worker",
+              "claude_code",
+              "UserPromptSubmit"
+            ]
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/connector/claude-code/client/kovya_windows_broker_native.exe",
+            "timeout": 9,
+            "args": [
+              "launch",
+              "worker",
+              "claude_code",
+              "Stop"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

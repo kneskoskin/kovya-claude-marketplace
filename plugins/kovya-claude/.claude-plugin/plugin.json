@@ -1,0 +1,11 @@
+{
+  "name": "kovya-claude",
+  "version": "0.1.0-preview.10.6",
+  "description": "Kovya automatic memory connector preview; shared runtime acceptance remains required.",
+  "author": {
+    "name": "Kovya"
+  },
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "icon": "./assets/kovya-icon.png"
+}

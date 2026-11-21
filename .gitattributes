@@ -1,0 +1,4 @@
+/plugins/kovya-claude/** -text
+/.claude-plugin/marketplace.json -text
+/README.md -text
+/.gitattributes -text
