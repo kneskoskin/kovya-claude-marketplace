@@ -1,3 +1,4 @@
+import {claudeTranscriptExchange,codexTranscriptExchange} from "../../../plugin/transcript-pair.mjs";
 import {HOOK_FALLBACK_MS,HOST_HOOK_TIMEOUT_SECONDS} from "../../../plugin/request-budget.mjs";
 // kovya_hook_common.mjs — shared plumbing for the Kovya Claude Code hooks.
 //
@@ -1179,63 +1180,10 @@ export function extractRecallRows(body = {}) {
 // exchange out of the Claude Code transcript JSONL. Defensive — transcript
 // entry shapes vary across versions; we only need text, and capture is
 // content-safe regardless (the client never sends raw text).
-export function lastExchangeFromTranscript(transcriptPath) {
-  let lines;
-  try {
-    lines = readFileSync(transcriptPath, "utf8").split("\n").filter((line) => line.trim().length > 0);
-  } catch (error) {
-    throw new Error(`transcript unreadable at ${transcriptPath}: ${error.message}`);
-  }
-  const entries = [];
-  for (const line of lines) {
-    let entry;
-    try {
-      entry = JSON.parse(line);
-    } catch {
-      continue;
-    }
-    // Skip synthetic/meta entries (compaction summaries, harness meta rows) —
-    // they are not part of the real user/assistant exchange.
-    if (entry?.isMeta === true || entry?.isCompactSummary === true || entry?.isHarnessControl === true) continue;
-    const role = entry?.message?.role ?? entry?.payload?.role ?? entry?.type;
-    const text = extractText(entry?.message?.content ?? entry?.payload?.content ?? entry?.content);
-    if (!text) continue;
-    if (!new Set(["user", "assistant"]).has(role)) continue;
-    if (role === "user" && isCommandWrapperText(text)) continue;
-    entries.push({ role, text });
-  }
-  const assistantIndex = entries.findLastIndex((entry) => entry.role === "assistant");
-  if (assistantIndex === -1) return { lastUser: null, lastAssistant: null };
-  const lastAssistant = entries[assistantIndex].text;
-  let lastUser = null;
-  for (let index = assistantIndex - 1; index >= 0; index -= 1) {
-    if (entries[index].role === "user") {
-      lastUser = entries[index].text;
-      break;
-    }
-  }
-  return { lastUser, lastAssistant };
-}
-
-function isCommandWrapperText(text) {
-  const t = text.trimStart();
-  return (
-    t.startsWith("<command-name>") ||
-    t.startsWith("<command-message>") ||
-    t.startsWith("<command-args>") ||
-    t.startsWith("<local-command-") ||
-    t.startsWith("Caveat:")
-  );
-}
-
-function extractText(content) {
-  if (typeof content === "string") return content.trim() || null;
-  if (Array.isArray(content)) {
-    const parts = content
-      .filter((block) => ["text", "input_text", "output_text"].includes(block?.type) && typeof block.text === "string")
-      .map((block) => block.text.trim())
-      .filter(Boolean);
-    return parts.length > 0 ? parts.join("\n") : null;
-  }
-  return null;
+export function lastExchangeFromTranscript(transcriptPath, input = {}) {
+  let entries;
+  try { entries=readFileSync(transcriptPath,"utf8").split("\n").filter(line=>line.trim()).map(line=>JSON.parse(line)); }
+  catch { throw Object.assign(new Error("Kovya capture transcript is incomplete."),{code:"capture_pair_incomplete"}); }
+  const pair=input.host==="codex"?codexTranscriptExchange(entries,input):claudeTranscriptExchange(entries,input);
+  return {lastUser:pair.user_text,lastAssistant:pair.assistant_text};
 }

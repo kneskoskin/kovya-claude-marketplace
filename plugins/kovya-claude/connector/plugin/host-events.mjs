@@ -1,3 +1,4 @@
+import {claudeTranscriptExchange,codexTranscriptExchange,pairError,transcriptText} from "./transcript-pair.mjs";
 import { createHash } from "node:crypto";
 import { PRIVATE_MEMORY_SOURCE_HOSTS } from "../kovya-memory-wire-contract.mjs";
 import { buildCanonicalPrivateTurnContent } from "../claude-code/client/kovya-memory-client.mjs";
@@ -22,7 +23,8 @@ export function messageText(content) {
 }
 
 // Only selected transcript data supplied by the host adapter, never an ambient corpus.
-export function transcriptExchange(entries) {
+export function transcriptExchange(entries, input = {}) {
+  if(input.host!=="omp")return input.host==="codex"?codexTranscriptExchange(entries,input):claudeTranscriptExchange(entries,input);
   const rows = entries.filter(entry => !entry?.isMeta && !entry?.isCompactSummary && !entry?.isHarnessControl)
     .map(entry => ({ entry, role: entry?.message?.role ?? entry?.payload?.role ?? entry?.type,
       text: messageText(entry?.message?.content ?? entry?.payload?.content ?? entry?.content) }))
@@ -36,13 +38,15 @@ export function transcriptExchange(entries) {
 }
 
 export function codexAssistant(input, entries = []) {
-  const documented = messageText(input.last_assistant_message);
+  const documented = transcriptText(input.last_assistant_message);
   if (documented) return documented;
   // A nullable Stop field cannot authorize the last answer from an older turn.
-  const bound = entries.filter(entry => (entry?.turn_id ?? entry?.payload?.turn_id) === input.turn_id);
-  const assistant = bound.findLast(entry => (entry?.message?.role ?? entry?.payload?.role ?? entry?.type) === "assistant");
-  const text = messageText(assistant?.message?.content ?? assistant?.payload?.content ?? assistant?.content);
-  if (!text) throw new Error("kovya_assistant_missing");
+  const bound = entries.filter(entry => (entry?.turn_id ?? entry?.payload?.turn_id) === input.turn_id
+    && entry?.type === "response_item" && entry.payload?.type === "message" && entry.payload.role === "assistant"
+    && entry.payload.phase === "final_answer" && !(entry.isMeta || entry.isCompactSummary || entry.isHarnessControl));
+  if(bound.length!==1)throw pairError("capture_pair_incomplete");
+  const text = transcriptText(bound[0].payload.content);
+  if (!text) throw pairError("capture_pair_incomplete");
   return text;
 }
 
@@ -52,7 +56,7 @@ export function normalizeCapture(host, input, { entries = [], prompt } = {}) {
   let turn;
   let exchange;
   if (host === "claude_code") {
-    exchange = transcriptExchange(entries);
+    exchange = transcriptExchange(entries,{...input,host});
     turn = identity(exchange.assistant_id);
   } else if (host === "codex") {
     turn = identity(input?.turn_id);
@@ -61,15 +65,16 @@ export function normalizeCapture(host, input, { entries = [], prompt } = {}) {
       if (!messageText(prompt)) throw new Error("kovya_user_missing");
       exchange = {user_text:prompt,assistant_text:assistant};
     } else {
-      exchange = transcriptExchange(entries);
-      if (assistant !== exchange.assistant_text) throw new Error("kovya_transcript_turn_mismatch");
+      const transcriptAssistant = codexAssistant({...input,last_assistant_message:null},entries);
+      if (assistant !== transcriptAssistant) throw pairError("capture_pair_turn_mismatch");
+      exchange = transcriptExchange(entries,{...input,host});
     }
   } else {
     // OMP 18.1.11 exposes numeric loop turn_id; the persisted assistant entry id
     // additionally distinguishes loop restarts/resumes with repeated numeric ids.
     turn = identity(input?.assistant_entry_id);
     if (!Number.isSafeInteger(input.turn_id) || input.turn_id < 0) throw new Error("kovya_event_identity_required");
-    exchange = transcriptExchange(entries);
+    exchange = transcriptExchange(entries,{...input,host});
     if (exchange.assistant_id !== turn || messageText(input.last_assistant_message?.content) !== exchange.assistant_text) {
       throw new Error("kovya_transcript_turn_mismatch");
     }

@@ -1,3 +1,4 @@
+import {callbackPage} from "./kovya-windows-callback-pages.mjs";
 import {withWindowsAuthState,readWindowsAuthDocument,recordWindowsAuthDocument,observeWindowsAuthState,assertWindowsAuthEffect,rethrowInactiveWindowsAuthError,guardWindowsAuthCredentialBridge} from "./kovya-windows-device-auth.mjs";
 import {diagnosticAttemptId,bindDiagnosticAttempt,serverDiagnosticReason,noteServerDiagnostic,browserExchangeRefusalReason,diagnosticStage,diagnosticObservation,propagateDiagnosticFailure,noteAuthenticationDeadline,classifyDiagnosticError} from "../../plugin/diagnostic-events.mjs";
 import {openWindowsDesktopBrowser} from "./kovya-windows-desktop-browser.mjs";
@@ -99,7 +100,7 @@ export async function createWindowsLoopbackReceiver({ expectedState, timeoutMs =
   result.catch(() => {});
   const server = http.createServer((request, response) => {
     try {
-      if (settled) return fixedResponse(response, 409, "This Kovya authorization return is no longer active.");
+      if (settled) return fixedResponse(response, 409);
       const rawUrl = String(request.url ?? "");
       const remote = request.socket?.remoteAddress;
       if (request.method !== "GET" || !["127.0.0.1", "::ffff:127.0.0.1"].includes(remote)
@@ -127,12 +128,12 @@ export async function createWindowsLoopbackReceiver({ expectedState, timeoutMs =
         const record={...p,codeHash:createHash("sha256").update(code).digest("hex"),admittedMono:performance.now(),stage:"callback_admitted"};Object.defineProperty(record,"active",{get:()=>p.active});automaticAdmissions.set(admission,record);
       }
       settled = true;
-      fixedResponse(response, 200, "Kovya authorization received. You may close this window.");
+      fixedResponse(response, 200);
       server.close();
       resolveResult(Object.freeze({ code,...(admission?{admission}:{}) }));
     } catch (error) {
       settled = true;
-      fixedResponse(response, 400, "Kovya authorization was refused. Return to the installer and try again.");
+      fixedResponse(response, 400);
       server.close();
       rejectResult(error?.kovyaBrowserAuth ? error : browserError("callback_refused", false, error));
     }
@@ -568,7 +569,7 @@ function recoverAtomic(target) {
   for (const name of readdirSync(directory)) { if (name.startsWith(`${path.basename(target)}.tmp-`)) rmSync(path.join(directory, name), { force: true }); }
 }
 function removeFile(target) { assertWindowsAuthEffect(target); try { const s=statSync(target,{throwIfNoEntry:false}); if(s?.isSymbolicLink()||s&&!s.isFile())throw browserError("state_path_refused"); unlinkSync(target); recordWindowsAuthDocument(target,null); } catch(e){ if(e?.code!=="ENOENT")throw e; } }
-function fixedResponse(response, status, text) { response.writeHead(status,{"content-type":"text/html; charset=utf-8","cache-control":"no-store","content-security-policy":"default-src 'none'; frame-ancestors 'none'","referrer-policy":"no-referrer","x-content-type-options":"nosniff","x-frame-options":"DENY"}); response.end(`<!doctype html><meta charset="utf-8"><title>Kovya</title><p>${text}</p>`); }
+function fixedResponse(response, status) { const page=callbackPage(status); response.writeHead(status,{"content-type":"text/html; charset=utf-8","cache-control":"no-store","content-security-policy":`default-src 'none'; style-src 'sha256-${page.styleSha256}'; frame-ancestors 'none'`,"referrer-policy":"no-referrer","x-content-type-options":"nosniff","x-frame-options":"DENY"}); response.end(page.html); }
 async function boundedJson(response,signal) {
   const declared=Number(response.headers?.get?.("content-length"));
   if(Number.isFinite(declared)&&declared>MAX_JSON_BYTES)throw browserError("response_invalid");

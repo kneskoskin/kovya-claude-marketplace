@@ -1,5 +1,5 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.13",
   "files": [
     {
       "path": "connector/claude-code/client/kovya-managed-process-streams.mjs",
@@ -55,7 +55,11 @@
     },
     {
       "path": "connector/claude-code/client/kovya-windows-browser-auth.mjs",
-      "sha256": "bfae669581663bd8a37c9812d0cc80f61a9356ef08bca9cd41fca7dac267edbd"
+      "sha256": "a59b450aaa674a655d3ff8e806e11d0b0ab429a3234c73db590bfb21ace05f63"
+    },
+    {
+      "path": "connector/claude-code/client/kovya-windows-callback-pages.mjs",
+      "sha256": "a76aa7b235d75920524589d5301d618a36fd7741d99165c56cc0c0ba06e075f3"
     },
     {
       "path": "connector/claude-code/client/kovya-windows-desktop-browser.mjs",
@@ -91,11 +95,11 @@
     },
     {
       "path": "connector/claude-code/hooks/lib/kovya_hook_common.mjs",
-      "sha256": "d04b7e8c3e0cb533bafae223ca82d94dc285b9c54bab45f74435dda6c33cfe37"
+      "sha256": "4259cd16aa624a9a15165ada10978bd76787cf3eff399e759ab2f59cb77f141b"
     },
     {
       "path": "connector/kovya-memory-wire-contract.mjs",
-      "sha256": "f0e79988754ece128de250a2db91dcac16dea98f65731553117ea7c1c34452aa"
+      "sha256": "8a6cd34700454c5043e0a0f97755dec239e869b6f42d322ae7fafff98416740c"
     },
     {
       "path": "connector/omp/extension.mjs",
@@ -123,11 +127,11 @@
     },
     {
       "path": "connector/plugin/dispatch.mjs",
-      "sha256": "4792ef8b5148f72829fa4135558c791f006e38f6a1d62d7dbb5c1127d32fb043"
+      "sha256": "a826f03378393fa9940881cdea55870bdf07368e12f6bb8ff611d6a2c74b82d3"
     },
     {
       "path": "connector/plugin/host-events.mjs",
-      "sha256": "8e90086947f724ea726cf07d46ca8cacf2dfb075ed2a7a52adbc8f6adc44444f"
+      "sha256": "25d9c240579d96ae9b0c1fdfb8238e090b0738af0754c2311e952a7ab137cb90"
     },
     {
       "path": "connector/plugin/layout.mjs",
@@ -186,12 +190,16 @@
       "sha256": "6223aa9c515420936168772e02fe83c41254c5e98a12691b6b343a5e5466126f"
     },
     {
+      "path": "connector/plugin/transcript-pair.mjs",
+      "sha256": "3d701e04a35fd7d07caeea65a3846b242caa49a6050d313bc198f7884844d6e9"
+    },
+    {
       "path": "connector/plugin/turn-join.mjs",
       "sha256": "9ea6e21748d72a7fe2318578c60fb9ed6ac7b57ddb7f228f7b852817393c02ea"
     },
     {
       "path": "connector/plugin/worker.mjs",
-      "sha256": "44848f10522b8398dfc2b48a0f6b2de7bd42f5e39380994508530ec154267128"
+      "sha256": "ce59cb8af7abb95ac04de06c5682143ad07c1d7f685b3550f57434c1c9a7a8c1"
     },
     {
       "path": "packages/memory-gateway/src/canonical-json.mjs",
@@ -216,5 +224,5 @@
     "native": "connector/claude-code/client/kovya_windows_broker_native.exe",
     "client": "connector/claude-code/client/kovya-memory-client.mjs"
   },
-  "digest": "dac4e2dd29936d92549ccbe3238892a2e19f93b16170255c66379c5aa00a8ac5"
+  "digest": "e62d54417f04619801b821a6e0a69a809dacaf194475e83a07c6ee6d2170e00c"
 }

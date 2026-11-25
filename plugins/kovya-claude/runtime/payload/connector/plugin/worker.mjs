@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {capturePairFailure} from "./transcript-pair.mjs";
 import {WORKER_EXIT_MS} from "./request-budget.mjs";
 import { readFileSync, statSync } from "node:fs";
 import { pathToFileURL, fileURLToPath } from "node:url";
@@ -51,7 +52,7 @@ export async function runWorker({ host, event, input }) {
       if (statSync(input.transcript_path).size > MAX_BYTES) throw new Error("kovya_transcript_too_large");
       entries = readFileSync(input.transcript_path, "utf8").split("\n").filter(line => line.trim()).map(line => JSON.parse(line));
     } catch (error) {
-      if (host !== "codex") throw error;
+      if (host !== "codex") return capturePairFailure("capture_pair_incomplete");
       entries = []; // Codex's documented fields and resident join remain usable.
     }
   }

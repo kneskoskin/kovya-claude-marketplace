@@ -7,7 +7,7 @@
     {
       "name": "kovya-claude",
       "source": "./plugins/kovya-claude",
-      "version": "0.1.0-preview.10.6",
+      "version": "0.1.0-preview.10.8",
       "description": "Kovya memory connector for local Claude Code on Windows x64."
     }
   ],

@@ -1,6 +1,6 @@
 {
   "name": "kovya-claude",
-  "version": "0.1.0-preview.10.6",
+  "version": "0.1.0-preview.10.8",
   "private": true,
   "type": "module",
   "engines": {

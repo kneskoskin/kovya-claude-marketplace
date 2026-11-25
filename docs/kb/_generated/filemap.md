@@ -16,7 +16,7 @@ Reads are bounded to 2 MiB. Unread content has no content hash. See [maintenance
 
 [Source](../../../.claude-plugin/marketplace.json) Ã‚Â· [Index status](codemap.md#file-5352ee4067f17e7948e1)
 
-Lines: 17; UTF-8 bytes: 440; SHA-256: `d32b26ea8b9b8b5e178e25285a57de606a8a9eccc7f10c08e96c0cf99ada3749`
+Lines: 17; UTF-8 bytes: 440; SHA-256: `d87544d6d3cbbb3fe4fece8d36e67220f149a45c90f18bcea49bbeb4df59cb2a`
 
 <a id="component-plugins"></a>
 ## Plugins
@@ -28,7 +28,7 @@ Lines: 17; UTF-8 bytes: 440; SHA-256: `d32b26ea8b9b8b5e178e25285a57de606a8a9eccc
 
 [Source](../../../plugins/kovya-claude/.claude-plugin/plugin.json) Ã‚Â· [Index status](codemap.md#file-876e762eeaec22cccced)
 
-Lines: 11; UTF-8 bytes: 302; SHA-256: `4c7aabbe1d5d91a73e760456a65d3b9399e001264975562354eb13df9f3025ca`
+Lines: 11; UTF-8 bytes: 302; SHA-256: `c1a64573d17686662da211be2ebd4d1b9c37ffd835d5b76686bb06047e7309b9`
 
 <a id="file-d55f2850f82e39fb04c8"></a>
 ### `plugins/kovya-claude/.mcp.json`
@@ -140,7 +140,14 @@ Lines: 1109; UTF-8 bytes: 49498; SHA-256: `52d7c4ae3dc7b2d30e065cf0ed1b5731b389f
 
 [Source](../../../plugins/kovya-claude/connector/claude-code/client/kovya-windows-browser-auth.mjs) Ã‚Â· [Index status](codemap.md#file-8a0fb59d12f99c01b1e5)
 
-Lines: 609; UTF-8 bytes: 48450; SHA-256: `bfae669581663bd8a37c9812d0cc80f61a9356ef08bca9cd41fca7dac267edbd`
+Lines: 610; UTF-8 bytes: 48327; SHA-256: `a59b450aaa674a655d3ff8e806e11d0b0ab429a3234c73db590bfb21ace05f63`
+
+<a id="file-369191ad453cfad19f2c"></a>
+### `plugins/kovya-claude/connector/claude-code/client/kovya-windows-callback-pages.mjs`
+
+[Source](../../../plugins/kovya-claude/connector/claude-code/client/kovya-windows-callback-pages.mjs) Ã‚Â· [Index status](codemap.md#file-369191ad453cfad19f2c)
+
+Lines: 4; UTF-8 bytes: 13420; SHA-256: `a76aa7b235d75920524589d5301d618a36fd7741d99165c56cc0c0ba06e075f3`
 
 <a id="file-9607ca87e62e6b0af4ea"></a>
 ### `plugins/kovya-claude/connector/claude-code/client/kovya-windows-desktop-browser.mjs`
@@ -189,14 +196,14 @@ Lines: 59; UTF-8 bytes: 2633; SHA-256: `a8b4253ce268ba34a45cab920334f9339dad0a51
 
 [Source](../../../plugins/kovya-claude/connector/claude-code/hooks/lib/kovya_hook_common.mjs) Ã‚Â· [Index status](codemap.md#file-b48adc991c63beb1a700)
 
-Lines: 1241; UTF-8 bytes: 56437; SHA-256: `b72a8e8e76359be7c0c4b45b4ef9495cbb97584ff86056cc46f6d4340076270c`
+Lines: 1189; UTF-8 bytes: 54853; SHA-256: `b3d347b83fc381d22a125e7269cd3f182a6a3e6f58f7bc0bd7473528d3cdc8ea`
 
 <a id="file-932ef2da3ed9c38e2e76"></a>
 ### `plugins/kovya-claude/connector/kovya-memory-wire-contract.mjs`
 
 [Source](../../../plugins/kovya-claude/connector/kovya-memory-wire-contract.mjs) Ã‚Â· [Index status](codemap.md#file-932ef2da3ed9c38e2e76)
 
-Lines: 1944; UTF-8 bytes: 89052; SHA-256: `f0e79988754ece128de250a2db91dcac16dea98f65731553117ea7c1c34452aa`
+Lines: 1945; UTF-8 bytes: 89133; SHA-256: `8a6cd34700454c5043e0a0f97755dec239e869b6f42d322ae7fafff98416740c`
 
 <a id="file-203c9f253a72c5fa26e9"></a>
 ### `plugins/kovya-claude/connector/omp/extension.mjs`
@@ -245,14 +252,14 @@ Lines: 15; UTF-8 bytes: 1000; SHA-256: `3da2bad0fd33146337b7e9e96379251ec1755f81
 
 [Source](../../../plugins/kovya-claude/connector/plugin/dispatch.mjs) Ã‚Â· [Index status](codemap.md#file-9e113d4adbbab980cf07)
 
-Lines: 66; UTF-8 bytes: 4634; SHA-256: `4792ef8b5148f72829fa4135558c791f006e38f6a1d62d7dbb5c1127d32fb043`
+Lines: 73; UTF-8 bytes: 5033; SHA-256: `a826f03378393fa9940881cdea55870bdf07368e12f6bb8ff611d6a2c74b82d3`
 
 <a id="file-5d74ad5e6daa4dcc92e8"></a>
 ### `plugins/kovya-claude/connector/plugin/host-events.mjs`
 
 [Source](../../../plugins/kovya-claude/connector/plugin/host-events.mjs) Ã‚Â· [Index status](codemap.md#file-5d74ad5e6daa4dcc92e8)
 
-Lines: 80; UTF-8 bytes: 4151; SHA-256: `8e90086947f724ea726cf07d46ca8cacf2dfb075ed2a7a52adbc8f6adc44444f`
+Lines: 85; UTF-8 bytes: 4669; SHA-256: `25d9c240579d96ae9b0c1fdfb8238e090b0738af0754c2311e952a7ab137cb90`
 
 <a id="file-b589d6505613701d97c5"></a>
 ### `plugins/kovya-claude/connector/plugin/layout.mjs`
@@ -322,7 +329,7 @@ Lines: 47; UTF-8 bytes: 2518; SHA-256: `35786ce5ee79489eb8337334198d3163bfb665f8
 
 [Source](../../../plugins/kovya-claude/connector/plugin/runtime-requirement.json) Ã‚Â· [Index status](codemap.md#file-1a3d9034ec9974c3981e)
 
-Lines: 7; UTF-8 bytes: 282; SHA-256: `67a3afdd8dfbea019c23ed2ad91c7858c0b9708ac1ea9ee131918f549bfb03ca`
+Lines: 7; UTF-8 bytes: 282; SHA-256: `7f54365a519f21a5f67041fb696be75b54bbdd2ae3e097f11115bd5fc47bb746`
 
 <a id="file-289687f79384bc64e391"></a>
 ### `plugins/kovya-claude/connector/plugin/runtime-requirement.mjs`
@@ -359,6 +366,13 @@ Lines: 95; UTF-8 bytes: 6525; SHA-256: `f8f5421b54f456384707da5615ab2b99951ee427
 
 Lines: 29; UTF-8 bytes: 9370; SHA-256: `c71881b7ad7164ebb286fe2209ed549beb9f34cc9bf91c527daea0c4d84de8a4`
 
+<a id="file-9f26befe908a03b97d4e"></a>
+### `plugins/kovya-claude/connector/plugin/transcript-pair.mjs`
+
+[Source](../../../plugins/kovya-claude/connector/plugin/transcript-pair.mjs) Ã‚Â· [Index status](codemap.md#file-9f26befe908a03b97d4e)
+
+Lines: 155; UTF-8 bytes: 8525; SHA-256: `3d701e04a35fd7d07caeea65a3846b242caa49a6050d313bc198f7884844d6e9`
+
 <a id="file-5b38ac15f58cda64e35f"></a>
 ### `plugins/kovya-claude/connector/plugin/turn-join.mjs`
 
@@ -371,7 +385,7 @@ Lines: 113; UTF-8 bytes: 5648; SHA-256: `9ea6e21748d72a7fe2318578c60fb9ed6ac7b57
 
 [Source](../../../plugins/kovya-claude/connector/plugin/worker.mjs) Ã‚Â· [Index status](codemap.md#file-7ea5465ed701cf58ebe5)
 
-Lines: 95; UTF-8 bytes: 6418; SHA-256: `ca4d4b830669b0c99e653f5794466be47f4dc84b7f810a6e3b8daaf7742eb012`
+Lines: 96; UTF-8 bytes: 6517; SHA-256: `c5f0543163842ff46e201b907286e0d6d2dbffd5fb67230b47b3e878108f82b5`
 
 <a id="file-7a48001604386b578464"></a>
 ### `plugins/kovya-claude/hooks/hooks.json`
@@ -392,7 +406,7 @@ Lines: 7; UTF-8 bytes: 275; SHA-256: `c85d0a55b7b1cc114314982465dfc40413e452adea
 
 [Source](../../../plugins/kovya-claude/package.json) Ã‚Â· [Index status](codemap.md#file-a54cc2462df8b1ec578b)
 
-Lines: 9; UTF-8 bytes: 142; SHA-256: `2ed9ec4f505ba9f0334ae58099214c94bf31f72acfbf8e736699cda1a862ff09`
+Lines: 9; UTF-8 bytes: 142; SHA-256: `b30bf1a8eeafd73dbb00418f896b0e98f0f3f075dca8d479ab191de8fbb41c81`
 
 <a id="file-2040ce46ea6495fb3d56"></a>
 ### `plugins/kovya-claude/packages/memory-gateway/src/canonical-json.mjs`
@@ -413,7 +427,7 @@ Lines: 98; UTF-8 bytes: 4164; SHA-256: `503b498c30490fec87b7cc308e332ed9171af1db
 
 [Source](../../../plugins/kovya-claude/runtime/descriptor.json) Ã‚Â· [Index status](codemap.md#file-8de9a314b79f9602d3e5)
 
-Lines: 220; UTF-8 bytes: 8629; SHA-256: `7b44a34a8d8cb129f1e8f8a88a969cdc94e4c63b315b1784b8865ab6490648e9`
+Lines: 228; UTF-8 bytes: 8954; SHA-256: `6c0a866950ee8368cea70c428e655db1559f13cfd0abe34bbef7d2642fe5c5de`
 
 <a id="file-07be1da9b0982dabaf6d"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-managed-process-streams.mjs`
@@ -511,7 +525,14 @@ Lines: 1109; UTF-8 bytes: 49498; SHA-256: `52d7c4ae3dc7b2d30e065cf0ed1b5731b389f
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-browser-auth.mjs) Ã‚Â· [Index status](codemap.md#file-0f328d1813ace9fd4da5)
 
-Lines: 609; UTF-8 bytes: 48450; SHA-256: `bfae669581663bd8a37c9812d0cc80f61a9356ef08bca9cd41fca7dac267edbd`
+Lines: 610; UTF-8 bytes: 48327; SHA-256: `a59b450aaa674a655d3ff8e806e11d0b0ab429a3234c73db590bfb21ace05f63`
+
+<a id="file-4d967dfb3e1a95767755"></a>
+### `plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-callback-pages.mjs`
+
+[Source](../../../plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-callback-pages.mjs) Ã‚Â· [Index status](codemap.md#file-4d967dfb3e1a95767755)
+
+Lines: 4; UTF-8 bytes: 13420; SHA-256: `a76aa7b235d75920524589d5301d618a36fd7741d99165c56cc0c0ba06e075f3`
 
 <a id="file-49a7a98aa5a3777d50d7"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-desktop-browser.mjs`
@@ -560,14 +581,14 @@ Lines: 59; UTF-8 bytes: 2633; SHA-256: `a8b4253ce268ba34a45cab920334f9339dad0a51
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/claude-code/hooks/lib/kovya_hook_common.mjs) Ã‚Â· [Index status](codemap.md#file-5283ea809a43014df2ef)
 
-Lines: 1241; UTF-8 bytes: 56437; SHA-256: `b72a8e8e76359be7c0c4b45b4ef9495cbb97584ff86056cc46f6d4340076270c`
+Lines: 1189; UTF-8 bytes: 54853; SHA-256: `b3d347b83fc381d22a125e7269cd3f182a6a3e6f58f7bc0bd7473528d3cdc8ea`
 
 <a id="file-4882c1303309b1c42873"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/kovya-memory-wire-contract.mjs`
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/kovya-memory-wire-contract.mjs) Ã‚Â· [Index status](codemap.md#file-4882c1303309b1c42873)
 
-Lines: 1944; UTF-8 bytes: 89052; SHA-256: `f0e79988754ece128de250a2db91dcac16dea98f65731553117ea7c1c34452aa`
+Lines: 1945; UTF-8 bytes: 89133; SHA-256: `8a6cd34700454c5043e0a0f97755dec239e869b6f42d322ae7fafff98416740c`
 
 <a id="file-e489f4fa3e5bdfb80522"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/omp/extension.mjs`
@@ -616,14 +637,14 @@ Lines: 15; UTF-8 bytes: 1000; SHA-256: `3da2bad0fd33146337b7e9e96379251ec1755f81
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/plugin/dispatch.mjs) Ã‚Â· [Index status](codemap.md#file-0c8f51ccfcfdaf276a75)
 
-Lines: 66; UTF-8 bytes: 4634; SHA-256: `4792ef8b5148f72829fa4135558c791f006e38f6a1d62d7dbb5c1127d32fb043`
+Lines: 73; UTF-8 bytes: 5033; SHA-256: `a826f03378393fa9940881cdea55870bdf07368e12f6bb8ff611d6a2c74b82d3`
 
 <a id="file-1d16dcc914a643389553"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/plugin/host-events.mjs`
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/plugin/host-events.mjs) Ã‚Â· [Index status](codemap.md#file-1d16dcc914a643389553)
 
-Lines: 80; UTF-8 bytes: 4151; SHA-256: `8e90086947f724ea726cf07d46ca8cacf2dfb075ed2a7a52adbc8f6adc44444f`
+Lines: 85; UTF-8 bytes: 4669; SHA-256: `25d9c240579d96ae9b0c1fdfb8238e090b0738af0754c2311e952a7ab137cb90`
 
 <a id="file-ea6fd458dd7fb4ade752"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/plugin/layout.mjs`
@@ -723,6 +744,13 @@ Lines: 95; UTF-8 bytes: 6525; SHA-256: `f8f5421b54f456384707da5615ab2b99951ee427
 
 Lines: 29; UTF-8 bytes: 9370; SHA-256: `c71881b7ad7164ebb286fe2209ed549beb9f34cc9bf91c527daea0c4d84de8a4`
 
+<a id="file-859122f7b12fa1fbc339"></a>
+### `plugins/kovya-claude/runtime/payload/connector/plugin/transcript-pair.mjs`
+
+[Source](../../../plugins/kovya-claude/runtime/payload/connector/plugin/transcript-pair.mjs) Ã‚Â· [Index status](codemap.md#file-859122f7b12fa1fbc339)
+
+Lines: 155; UTF-8 bytes: 8525; SHA-256: `3d701e04a35fd7d07caeea65a3846b242caa49a6050d313bc198f7884844d6e9`
+
 <a id="file-d6c645cc74054886cb4b"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/plugin/turn-join.mjs`
 
@@ -735,7 +763,7 @@ Lines: 113; UTF-8 bytes: 5648; SHA-256: `9ea6e21748d72a7fe2318578c60fb9ed6ac7b57
 
 [Source](../../../plugins/kovya-claude/runtime/payload/connector/plugin/worker.mjs) Ã‚Â· [Index status](codemap.md#file-68e240a40ed394736abf)
 
-Lines: 95; UTF-8 bytes: 6418; SHA-256: `ca4d4b830669b0c99e653f5794466be47f4dc84b7f810a6e3b8daaf7742eb012`
+Lines: 96; UTF-8 bytes: 6517; SHA-256: `c5f0543163842ff46e201b907286e0d6d2dbffd5fb67230b47b3e878108f82b5`
 
 <a id="file-effdae0e913cfe3024f5"></a>
 ### `plugins/kovya-claude/runtime/payload/packages/memory-gateway/src/canonical-json.mjs`
@@ -774,7 +802,7 @@ Lines: 4; UTF-8 bytes: 109; SHA-256: `3ac7f315034bd7cffdcc4a42faffddad40b50b0212
 
 [Source](../../../README.md) Ã‚Â· [Index status](codemap.md#file-b335630551682c19a781)
 
-Lines: 3; UTF-8 bytes: 334; SHA-256: `6033a9052ece2ea417078fb3f9394955815e1a3dc458b9169d6fb1121c2c9915`
+Lines: 3; UTF-8 bytes: 334; SHA-256: `359c570df8c75433d369a6ff881bd1e2a445c793baa81cd8d0dcbac10f1047a3`
 
 <a id="file-3501c2fbad9823031a7f"></a>
 ### `docs/kb/.gitattributes`
@@ -816,28 +844,28 @@ Lines: 739; UTF-8 bytes: 39169; SHA-256: `7fab9673b1d0fde00ff320faa9cee1ea3b6861
 
 [Source](../../../docs/kb/components/claude-plugin.md) Ã‚Â· [Index status](codemap.md#file-882c2169619baf7c4b3d)
 
-Lines: 11; UTF-8 bytes: 1151; SHA-256: `a3214eac5bb41f4e9cdd8b5f18dbe602281efd3862091b66b896ab9c1764266f`
+Lines: 13; UTF-8 bytes: 1544; SHA-256: `d9fabe93d5011c731ffa83b3deadada5b5bca2506c02afba43bb98ab317806da`
 
 <a id="file-200dde42df983b4f8326"></a>
 ### `docs/kb/components/plugins.md`
 
 [Source](../../../docs/kb/components/plugins.md) Ã‚Â· [Index status](codemap.md#file-200dde42df983b4f8326)
 
-Lines: 22; UTF-8 bytes: 3163; SHA-256: `8b149228ef24ed38e0a71750d3736516199e727693b09253ab44d8bfb81e1763`
+Lines: 26; UTF-8 bytes: 4669; SHA-256: `d87b7bae287bdbd2ca0eb42c8a73a433f1be4a7407b85d03f65fdd3a8bca0edb`
 
 <a id="file-13354e6d3c63b2f69d26"></a>
 ### `docs/kb/concepts/package-and-runtime.md`
 
 [Source](../../../docs/kb/concepts/package-and-runtime.md) Ã‚Â· [Index status](codemap.md#file-13354e6d3c63b2f69d26)
 
-Lines: 11; UTF-8 bytes: 1059; SHA-256: `03c2b9d23c194169753db2ac07aa7c8ae19932fc3317a6a2c81bd881dfbcbef0`
+Lines: 13; UTF-8 bytes: 1623; SHA-256: `3900be12e94e8c5cd4e4facefec243dddeb50649cbd9e8ad2570e50c6ba8e271`
 
 <a id="file-2730a48be59ba80580e7"></a>
 ### `docs/kb/decisions.md`
 
 [Source](../../../docs/kb/decisions.md) Ã‚Â· [Index status](codemap.md#file-2730a48be59ba80580e7)
 
-Lines: 12; UTF-8 bytes: 1816; SHA-256: `0d47abe969c1811a2c56877fa3ec189776cdb7f4ac405bc49b18b2183717c3dd`
+Lines: 16; UTF-8 bytes: 2425; SHA-256: `98c8466e4cb5cc7e05f0c36100f20e5708702e480bea1b5a59f2c6b05ec9e71d`
 
 <a id="file-d1c23aea30fa40917a79"></a>
 ### `docs/kb/maintenance.md`
@@ -858,14 +886,14 @@ Lines: 13; UTF-8 bytes: 396; SHA-256: `766710b11f940b532de7aa1abbf09d11d5d484f81
 
 [Source](../../../plugins/kovya-claude/PREVIEW-NOT-RELEASED.md) Ã‚Â· [Index status](codemap.md#file-7ee459f37f12973a5c4e)
 
-Lines: 1; UTF-8 bytes: 383; SHA-256: `a2ee11f89ff88f1dbfc37a16ec95c74922ca3b0ef759f212e7a4893ee281ef45`
+Lines: 1; UTF-8 bytes: 276; SHA-256: `42b23fed3b45df2b7db755e44e906ebbaaebeedcb9e35cfdd39fa300b42799d7`
 
 <a id="file-8680ad3845b6ffd8803e"></a>
 ### `plugins/kovya-claude/README.md`
 
 [Source](../../../plugins/kovya-claude/README.md) Ã‚Â· [Index status](codemap.md#file-8680ad3845b6ffd8803e)
 
-Lines: 26; UTF-8 bytes: 3516; SHA-256: `9d2e249ac1ab43e9498f280af088b260492e0c5bf7c8a1018f5a59bb09fa3900`
+Lines: 28; UTF-8 bytes: 4273; SHA-256: `6c59c00f12aeaca74f71c38a679121d3a3e88380a8e3b73523837fe308718e5d`
 
 <a id="file-0737742ac3156877456a"></a>
 ### `plugins/kovya-claude/assets/kovya-icon.png`

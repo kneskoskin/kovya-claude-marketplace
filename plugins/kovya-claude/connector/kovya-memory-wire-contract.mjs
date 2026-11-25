@@ -154,13 +154,14 @@ const KOVYA_RECOVERY_OPERATIONS = Object.freeze(new Set([
 ]));
 
 export const RECALL_QUERY_TOKEN_HASH_LIMIT = 24;
+export const RECALL_QUERY_TOKEN_HASH_ADMISSION_LIMIT = 256;
 export const RECALL_QUERY_TOKEN_HASH_DOMAIN = "kovya:recall-query-token:v1";
 export const RECALL_QUERY_TOKEN_HASH_DOMAIN_V2 = "kovya:recall-query-token:v2";
 export const PRIVATE_TURN_CONTENT_SCHEMA_VERSION = "kovya.private_turn_content.v1";
 export const PRIVATE_MEMORY_SOURCE_HOSTS = Object.freeze(["codex", "claude_code", "omp"]);
 export const PRIVATE_MEMORY_MAX_PLAINTEXT_BYTES = 131_072;
 export const PRIVATE_MEMORY_MAX_TEXT_BYTES = 65_536;
-export const PRIVATE_MEMORY_MAX_SEARCH_TOKEN_HASHES = 24;
+export const PRIVATE_MEMORY_MAX_SEARCH_TOKEN_HASHES = 256;
 export const PRIVATE_MEMORY_MAX_RECALL_ITEMS = 6;
 export const PRIVATE_MEMORY_MAX_RECALL_PLAINTEXT_BYTES = 262_144;
 export const PRIVATE_MEMORY_MAX_HOOK_CONTEXT_BYTES = 24_576;
@@ -401,8 +402,8 @@ export function normalizeRecallQueryTokenHashes(value) {
   if (keys.length !== value.length || keys.some((key, index) => key !== String(index))) {
     throw new TypeError("query_token_hashes must be a dense array.");
   }
-  if (value.length > RECALL_QUERY_TOKEN_HASH_LIMIT) {
-    throw new TypeError(`query_token_hashes must contain at most ${RECALL_QUERY_TOKEN_HASH_LIMIT} hashes.`);
+  if (value.length > RECALL_QUERY_TOKEN_HASH_ADMISSION_LIMIT) {
+    throw new TypeError(`query_token_hashes must contain at most ${RECALL_QUERY_TOKEN_HASH_ADMISSION_LIMIT} hashes.`);
   }
   if (value.some((item) => typeof item !== "string" || !/^sha256:[a-f0-9]{64}$/.test(item))) {
     throw new TypeError("query_token_hashes must contain lowercase sha256 content hashes.");

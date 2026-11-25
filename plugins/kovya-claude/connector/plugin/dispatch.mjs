@@ -1,3 +1,4 @@
+import {CAPTURE_PAIR_REASONS,capturePairFailure} from "./transcript-pair.mjs";
 import { requireHost, normalizeCapture, codexAssistant } from "./host-events.mjs";
 import { inferRecallFreshnessPurpose, includeHistoryForRecallPurpose } from "../kovya-memory-wire-contract.mjs";
 
@@ -22,10 +23,13 @@ export async function dispatchHostEvent({ host, event, input, entries = [] }, { 
       }
       let assistant;
       try { assistant = codexAssistant(input,entries); }
-      catch { return {ok:false,state:"capture_unconfirmed",reason:"kovya_assistant_missing",systemMessage:OFFLINE}; }
+      catch(error) { return capturePairFailure(CAPTURE_PAIR_REASONS.includes(error?.code)?error.code:"capture_pair_incomplete"); }
       content = {host,session_id:input.session_id,turn_id:input.turn_id,
         assistant_text:assistant,transcript_bound:false};
-    } else content = normalizeCapture(host, input, { entries });
+    } else {
+      try { content = normalizeCapture(host, input, { entries }); }
+      catch(error){if(CAPTURE_PAIR_REASONS.includes(error?.code))return capturePairFailure(error.code);throw error;}
+    }
     const transcriptFallback=(result,error)=>!error&&content.transcript_bound===false&&entries.length>0
       &&["prompt_missing","prompt_expired","runtime_missing"].includes(result?.reason);
     let result;
@@ -36,7 +40,10 @@ export async function dispatchHostEvent({ host, event, input, entries = [] }, { 
       return {ok:false,state:"capture_unconfirmed",reason:runtimeMissing ? "runtime_missing" : "capture_unconfirmed",systemMessage:OFFLINE};
     }
     if (transcriptFallback(result)) {
-      result = await client.capturePrivateMemory(normalizeCapture(host,input,{entries}),{fetchTimeoutMs:900});
+      let fallback;
+      try {fallback=normalizeCapture(host,input,{entries});}
+      catch(error){if(CAPTURE_PAIR_REASONS.includes(error?.code))return capturePairFailure(error.code);throw error;}
+      result = await client.capturePrivateMemory(fallback,{fetchTimeoutMs:900});
     }
     const saved = result?.ok === true && result.body?.durable_content === true
       && typeof result.content_sha256 === "string" && result.body.content_sha256 === result.content_sha256;

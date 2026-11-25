@@ -5,7 +5,7 @@ GENERATED, do not edit
 Extractors: Python AST (.py); approximate JS/TS declaration patterns (.js .mjs .cjs .jsx .ts .tsx .mts .cts); PowerShell declarations (.ps1 .psm1).
 Static declarations, not a semantic or call graph. File coverage does not imply symbol coverage.
 
-## Symbol-indexed (94 files)
+## Symbol-indexed (98 files)
 
 <a id="file-d6370786a4b79a6ad295"></a>
 ### `plugins/kovya-claude/bin/kovya.mjs`
@@ -2058,282 +2058,294 @@ Declaration at line 1096.
 <a id="symbol-d83adc82e3bb2bd52ab6"></a>
 #### createWindowsBrowserAuthorizationTransport
 
-Declaration at line 25.
+Declaration at line 26.
 
 <a id="symbol-4759097bb6d19b3b3306"></a>
 #### post
 
-Declaration at line 33.
+Declaration at line 34.
 
 <a id="symbol-dc52df55972670d53e54"></a>
 #### deadlineError
 
-Declaration at line 44.
+Declaration at line 45.
 
 <a id="symbol-5f0f8a6611534eb958c9"></a>
 #### check
 
-Declaration at line 49.
+Declaration at line 50.
 
 <a id="symbol-e74ab29e34e1f649b4f5"></a>
 #### operation
 
-Declaration at line 52.
+Declaration at line 53.
 
 <a id="symbol-e51eac0a11a836631392"></a>
 #### createWindowsBrowserLauncher
 
-Declaration at line 77.
+Declaration at line 78.
 
 <a id="symbol-772b2a9abc942bb79ec1"></a>
 #### createWindowsLoopbackReceiver
 
-Declaration at line 91.
+Declaration at line 92.
 
 <a id="symbol-1023dd365553da9757ae"></a>
 #### createWindowsBrowserAuthorizationClient
 
-Declaration at line 173.
+Declaration at line 174.
 
 <a id="symbol-bccc91542de39126910e"></a>
 #### prepareManual
 
-Declaration at line 213.
+Declaration at line 214.
 
 <a id="symbol-c67eeb783c6359a7851b"></a>
 #### prepareAutomatic
 
-Declaration at line 214.
+Declaration at line 215.
 
 <a id="symbol-4ea102684d84b27dd11b"></a>
 #### prepareAuthorization
 
-Declaration at line 220.
+Declaration at line 221.
 
 <a id="symbol-0e20b8f6daf6b11e60f4"></a>
 #### acceptManualStart
 
-Declaration at line 231.
+Declaration at line 232.
 
 <a id="symbol-f29807964c5d0ae7ab97"></a>
 #### acceptAutomaticStart
 
-Declaration at line 232.
+Declaration at line 233.
 
 <a id="symbol-2a3831dcc16e96363177"></a>
 #### acceptAuthorizationStart
 
-Declaration at line 233.
+Declaration at line 234.
 
 <a id="symbol-79cbe270041a81213d19"></a>
 #### manualPending
 
-Declaration at line 265.
+Declaration at line 266.
 
 <a id="symbol-404733e8315b7527a176"></a>
 #### prepareManualExchange
 
-Declaration at line 272.
+Declaration at line 273.
 
 <a id="symbol-5aa05156c90a86994177"></a>
 #### acceptManualResult
 
-Declaration at line 294.
+Declaration at line 295.
 
 <a id="symbol-a9e497e8068269f86517"></a>
 #### openAutomaticReceiver
 
-Declaration at line 308.
+Declaration at line 309.
 
 <a id="symbol-c4218817561a72430e82"></a>
 #### admissionRecord
 
-Declaration at line 325.
+Declaration at line 326.
 
 <a id="symbol-014c2673bfb586e1fdac"></a>
 #### requestAutomaticExchange
 
-Declaration at line 332.
+Declaration at line 333.
 
 <a id="symbol-c993854ecdc4650152a3"></a>
 #### automaticJournal
 
-Declaration at line 343.
+Declaration at line 344.
 
 <a id="symbol-4e310fdcf6d1f6f05cf2"></a>
 #### prepareAutomaticExchange
 
-Declaration at line 355.
+Declaration at line 356.
 
 <a id="symbol-1c0f35578d31727c6999"></a>
 #### acceptAutomaticResult
 
-Declaration at line 374.
+Declaration at line 375.
 
 <a id="symbol-fb3271c12d46958c7177"></a>
 #### inspect
 
-Declaration at line 390.
+Declaration at line 391.
 
 <a id="symbol-353c0ff76be5c5528faa"></a>
 #### begin
 
-Declaration at line 396.
+Declaration at line 397.
 
 <a id="symbol-16959c532b3a5cad862e"></a>
 #### resumeManual
 
-Declaration at line 452.
+Declaration at line 453.
 
 <a id="symbol-2841d25a5efced82fea6"></a>
 #### exchange
 
-Declaration at line 469.
+Declaration at line 470.
 
 <a id="symbol-e8a2128cc4fbaba0e2e6"></a>
 #### readProtectedPending
 
-Declaration at line 490.
+Declaration at line 491.
 
 <a id="symbol-426ef7de413395d28289"></a>
 #### stageExchangeCode
 
-Declaration at line 498.
+Declaration at line 499.
 
 <a id="symbol-6e53142693ed284da7f0"></a>
 #### stageExchangeResult
 
-Declaration at line 509.
+Declaration at line 510.
 
 <a id="symbol-b7c0aa392f5deff4d458"></a>
 #### clearPending
 
-Declaration at line 521.
+Declaration at line 522.
 
 <a id="symbol-447b234fda5326ffe4c4"></a>
 #### validateWindowsBrowserAuthJournal
 
-Declaration at line 528.
+Declaration at line 529.
 
 <a id="symbol-63494e842b31e2076f4b"></a>
 #### validateJournal
 
-Declaration at line 529.
+Declaration at line 530.
 
 <a id="symbol-8d85176d9acf690cad12"></a>
 #### readJournal
 
-Declaration at line 556.
+Declaration at line 557.
 
 <a id="symbol-9a4b2746ca8ce4700789"></a>
 #### writeAtomic
 
-Declaration at line 557.
+Declaration at line 558.
 
 <a id="symbol-e1b1933a450e5fa86b1c"></a>
 #### recoverAtomic
 
-Declaration at line 566.
+Declaration at line 567.
 
 <a id="symbol-defec109cba446b68d8f"></a>
 #### removeFile
 
-Declaration at line 570.
+Declaration at line 571.
 
 <a id="symbol-9657cf40ee53e4d839c6"></a>
 #### fixedResponse
 
-Declaration at line 571.
+Declaration at line 572.
 
 <a id="symbol-409b862afff05c7ce8f1"></a>
 #### boundedJson
 
-Declaration at line 572.
+Declaration at line 573.
 
 <a id="symbol-a19797dc3030b4ea0752"></a>
 #### cancel
 
-Declaration at line 576.
+Declaration at line 577.
 
 <a id="symbol-790a41c270dfd1876df4"></a>
 #### diagnosticHintClock
 
-Declaration at line 584.
+Declaration at line 585.
 
 <a id="symbol-8957d5682bc30c1f32c8"></a>
 #### httpsOrigin
 
-Declaration at line 585.
+Declaration at line 586.
 
 <a id="symbol-640e01631210f2a691a5"></a>
 #### authorizationUrl
 
-Declaration at line 586.
+Declaration at line 587.
 
 <a id="symbol-81126e3c024c11c99feb"></a>
 #### manualUrl
 
-Declaration at line 587.
+Declaration at line 588.
 
 <a id="symbol-49d6303ab5e6f7e44709"></a>
 #### loopbackUri
 
-Declaration at line 588.
+Declaration at line 589.
 
 <a id="symbol-d01693ea3b96fd8413c4"></a>
 #### publicKey
 
-Declaration at line 589.
+Declaration at line 590.
 
 <a id="symbol-4e0ab903777e86749342"></a>
 #### requestIdValue
 
-Declaration at line 590.
+Declaration at line 591.
 
 <a id="symbol-25c94e0204e542eaa02c"></a>
 #### label
 
-Declaration at line 591.
+Declaration at line 592.
 
 <a id="symbol-d4020cd9defd5638ff18"></a>
 #### opaque
 
-Declaration at line 592.
+Declaration at line 593.
 
 <a id="symbol-0896bc28b16c08eeab56"></a>
 #### manualCode
 
-Declaration at line 593.
+Declaration at line 594.
 
 <a id="symbol-ae1dcac952b6c221fff5"></a>
 #### entropy
 
-Declaration at line 594.
+Declaration at line 595.
 
 <a id="symbol-a8aa76c5eab3a8de2fbd"></a>
 #### same
 
-Declaration at line 595.
+Declaration at line 596.
 
 <a id="symbol-e51ed14489057fd7431d"></a>
 #### sameBytes
 
-Declaration at line 596.
+Declaration at line 597.
 
 <a id="symbol-208feefcc04d70e72f2a"></a>
 #### validateManualStartTypes
 
-Declaration at line 598.
+Declaration at line 599.
 
 <a id="symbol-6c70b194328121f6d14e"></a>
 #### exactKeys
 
-Declaration at line 608.
+Declaration at line 609.
 
 <a id="symbol-7b05c7acf345bad96465"></a>
 #### browserError
 
-Declaration at line 609.
+Declaration at line 610.
+
+
+
+<a id="file-369191ad453cfad19f2c"></a>
+### `plugins/kovya-claude/connector/claude-code/client/kovya-windows-callback-pages.mjs`
+
+[Source](../../../plugins/kovya-claude/connector/claude-code/client/kovya-windows-callback-pages.mjs) Ã‚Â· [Filemap](filemap.md#file-369191ad453cfad19f2c)
+
+<a id="symbol-2b8cfbbf999cee709b8b"></a>
+#### callbackPage
+
+Declaration at line 4.
 
 
 
@@ -3195,262 +3207,252 @@ No named declarations detected.
 <a id="symbol-ae01ec82e51c98a71abb"></a>
 #### readStdinJson
 
-Declaration at line 172.
+Declaration at line 173.
 
 <a id="symbol-5289fa7db1b3264280d4"></a>
 #### loadClient
 
-Declaration at line 179.
+Declaration at line 180.
 
 <a id="symbol-16331dafe0198fecf0a3"></a>
 #### hookOperationBudget
 
-Declaration at line 190.
+Declaration at line 191.
 
 <a id="symbol-9dbe2ee703130bfae475"></a>
 #### withTimeout
 
-Declaration at line 200.
+Declaration at line 201.
 
 <a id="symbol-1fbfacad3ca6296135d9"></a>
 #### markerFile
 
-Declaration at line 213.
+Declaration at line 214.
 
 <a id="symbol-9c22b1f7c8877c55d36a"></a>
 #### writeStateMarker
 
-Declaration at line 218.
+Declaration at line 219.
 
 <a id="symbol-afc280df300657e90f84"></a>
 #### sameWindowsPath
 
-Declaration at line 235.
+Declaration at line 236.
 
 <a id="symbol-c4198f0560932558065c"></a>
 #### ordinaryWindowsPath
 
-Declaration at line 241.
+Declaration at line 242.
 
 <a id="symbol-3959dabb886e65e5b55f"></a>
 #### readBoundedStrictJson
 
-Declaration at line 254.
+Declaration at line 255.
 
 <a id="symbol-2a3971697cebda7ea471"></a>
 #### exactObjectKeys
 
-Declaration at line 266.
+Declaration at line 267.
 
 <a id="symbol-084f3a30548a52a4086f"></a>
 #### hookHandlers
 
-Declaration at line 273.
+Declaration at line 274.
 
 <a id="symbol-6ddb643a27acf8f9a870"></a>
 #### hookProgramReceiptValid
 
-Declaration at line 279.
+Declaration at line 280.
 
 <a id="symbol-e32db03aa097fc8dd6f6"></a>
 #### codexDispatchBinding
 
-Declaration at line 293.
+Declaration at line 294.
 
 <a id="symbol-4a4d08cd73fd159a7db2"></a>
 #### exactCodexHandler
 
-Declaration at line 301.
+Declaration at line 302.
 
 <a id="symbol-8b518e4bc07c48745169"></a>
 #### exactClaudeHandler
 
-Declaration at line 313.
+Declaration at line 314.
 
 <a id="symbol-3806ba6a62821cc1dd7d"></a>
 #### resolveInstalledWindowsHookBinding
 
-Declaration at line 324.
+Declaration at line 325.
 
 <a id="symbol-a4a0fe93ef7e00c676e5"></a>
 #### windowsHookBindingSourceHost
 
-Declaration at line 408.
+Declaration at line 409.
 
 <a id="symbol-d555cec0031bb25f2e55"></a>
 #### observeWindowsHookReadiness
 
-Declaration at line 412.
+Declaration at line 413.
 
 <a id="symbol-ef6f1d2fabc60b12f769"></a>
 #### writeCodexHookDispatchReceipt
 
-Declaration at line 448.
+Declaration at line 449.
 
 <a id="symbol-4a82032ed00ebc9dfa58"></a>
 #### credentialActivationIdHash
 
-Declaration at line 464.
+Declaration at line 465.
 
 <a id="symbol-fde1bc86bddd286f18fc"></a>
 #### configuredSigningKeyId
 
-Declaration at line 472.
+Declaration at line 473.
 
 <a id="symbol-7061896cb7260f20425c"></a>
 #### readAllMarkers
 
-Declaration at line 490.
+Declaration at line 491.
 
 <a id="symbol-5abfa93dac1ec3082f0f"></a>
 #### readStateMarker
 
-Declaration at line 506.
+Declaration at line 507.
 
 <a id="symbol-21efbe84007f892438ff"></a>
 #### readStateMarkerForSession
 
-Declaration at line 515.
+Declaration at line 516.
 
 <a id="symbol-100c592c629519ed9093"></a>
 #### deleteMarkerFile
 
-Declaration at line 523.
+Declaration at line 524.
 
 <a id="symbol-a30e12a5c520318f25a3"></a>
 #### claimMarkerFile
 
-Declaration at line 532.
+Declaration at line 533.
 
 <a id="symbol-3e7fd9ffba6c4d3ac008"></a>
 #### releaseMarkerClaim
 
-Declaration at line 537.
+Declaration at line 538.
 
 <a id="symbol-ede75dabe404b774c255"></a>
 #### recoverOrphanedMarkerClaims
 
-Declaration at line 550.
+Declaration at line 551.
 
 <a id="symbol-a6d1205ad972bc78de36"></a>
 #### pruneOldMarkers
 
-Declaration at line 573.
+Declaration at line 574.
 
 <a id="symbol-d7a011cede2ca2f1f493"></a>
 #### prepareHookContext
 
-Declaration at line 593.
+Declaration at line 594.
 
 <a id="symbol-9eebecec0c1e8c5ceaf9"></a>
 #### emitAdditionalContext
 
-Declaration at line 614.
+Declaration at line 615.
 
 <a id="symbol-f715b4759fd11697c3e9"></a>
 #### exitHookCleanly
 
-Declaration at line 627.
+Declaration at line 628.
 
 <a id="symbol-88650b632c93408f1953"></a>
 #### formatRecallPack
 
-Declaration at line 652.
+Declaration at line 653.
 
 <a id="symbol-c7ec8f5f1268b1d87a87"></a>
 #### validatePrivateRecallProjections
 
-Declaration at line 872.
+Declaration at line 873.
 
 <a id="symbol-3395ba3111f6529abe08"></a>
 #### escapeRecallDelimiter
 
-Declaration at line 899.
+Declaration at line 900.
 
 <a id="symbol-61194e7df182fecf916c"></a>
 #### recallContextFingerprint
 
-Declaration at line 904.
+Declaration at line 905.
 
 <a id="symbol-41243ef39d0c5f98ba56"></a>
 #### recallContextReason
 
-Declaration at line 910.
+Declaration at line 911.
 
 <a id="symbol-9c1ec3dc6d5fe8a10da7"></a>
 #### hookDiagnosticToken
 
-Declaration at line 914.
+Declaration at line 915.
 
 <a id="symbol-239d4058a58d3ce3507d"></a>
 #### hookFailureReason
 
-Declaration at line 931.
+Declaration at line 932.
 
 <a id="symbol-abdf59de170dd0b06767"></a>
 #### memoryFailureTriage
 
-Declaration at line 959.
+Declaration at line 960.
 
 <a id="symbol-45938ebafc550a40ac5e"></a>
 #### hookRepairDirective
 
-Declaration at line 1084.
+Declaration at line 1085.
 
 <a id="symbol-db7694c17a01f660bb9d"></a>
 #### hookBannerMessage
 
-Declaration at line 1088.
+Declaration at line 1089.
 
 <a id="symbol-205c99dc2bbf7e072ea5"></a>
 #### hookHttpStatus
 
-Declaration at line 1094.
+Declaration at line 1095.
 
 <a id="symbol-e0efee98c4f03071f19c"></a>
 #### hookTimestamp
 
-Declaration at line 1105.
+Declaration at line 1106.
 
 <a id="symbol-70be4145f66c6e5b5772"></a>
 #### normalizeRecallContextFingerprintValue
 
-Declaration at line 1113.
+Declaration at line 1114.
 
 <a id="symbol-dd8944b7f16c8901674b"></a>
 #### recallContextEnum
 
-Declaration at line 1132.
+Declaration at line 1133.
 
 <a id="symbol-ee309217ef37a56b3199"></a>
 #### recallReason
 
-Declaration at line 1136.
+Declaration at line 1137.
 
 <a id="symbol-6b9efcd3bd2ec76bc10f"></a>
 #### firstArray
 
-Declaration at line 1144.
+Declaration at line 1145.
 
 <a id="symbol-1584655bb784cde5620a"></a>
 #### extractRecallRows
 
-Declaration at line 1165.
+Declaration at line 1166.
 
 <a id="symbol-251649b39582bd4b8ece"></a>
 #### lastExchangeFromTranscript
 
-Declaration at line 1182.
-
-<a id="symbol-63e4aa24d2f4ae12ac75"></a>
-#### isCommandWrapperText
-
-Declaration at line 1220.
-
-<a id="symbol-86e60adf846208ec5cb6"></a>
-#### extractText
-
-Declaration at line 1231.
+Declaration at line 1183.
 
 
 
@@ -3462,462 +3464,462 @@ Declaration at line 1231.
 <a id="symbol-c4948642b45b45838bfc"></a>
 #### legacyRecallQueryTokens
 
-Declaration at line 224.
+Declaration at line 225.
 
 <a id="symbol-76ec43256cf6f3815bc5"></a>
 #### recallQueryTokens
 
-Declaration at line 236.
+Declaration at line 237.
 
 <a id="symbol-d44a333987f63a1701a3"></a>
 #### recallQueryTokenHashes
 
-Declaration at line 248.
+Declaration at line 249.
 
 <a id="symbol-540d00fc089c57297aac"></a>
 #### RecallFreshnessContractError
 
-Declaration at line 287.
+Declaration at line 288.
 
 <a id="symbol-557de43be571004dead3"></a>
 #### normalizeRecallFreshnessWireInput
 
-Declaration at line 299.
+Declaration at line 300.
 
 <a id="symbol-fe46f29c75d743cc13f4"></a>
 #### inferRecallFreshnessPurpose
 
-Declaration at line 362.
+Declaration at line 363.
 
 <a id="symbol-a393a2e9282aff3c1c2f"></a>
 #### intentForRecallPurpose
 
-Declaration at line 379.
+Declaration at line 380.
 
 <a id="symbol-9d095f845284418e060e"></a>
 #### includeHistoryForRecallPurpose
 
-Declaration at line 386.
+Declaration at line 387.
 
 <a id="symbol-ae63d2f02366a59efb12"></a>
 #### purposeForRecallIntent
 
-Declaration at line 390.
+Declaration at line 391.
 
 <a id="symbol-106c2123c6d064b4c238"></a>
 #### normalizeRecallQueryTokenHashes
 
-Declaration at line 397.
+Declaration at line 398.
 
 <a id="symbol-b6addb5ea9a8f406387f"></a>
 #### hashRecallTokens
 
-Declaration at line 416.
+Declaration at line 417.
 
 <a id="symbol-4f3c16b422cd49d94ad9"></a>
 #### sortedUniqueStrings
 
-Declaration at line 424.
+Declaration at line 425.
 
 <a id="symbol-c958347d020cb1d5dcf5"></a>
 #### normalizeFreshnessPolicy
 
-Declaration at line 428.
+Declaration at line 429.
 
 <a id="symbol-cbd81038749c8f85633a"></a>
 #### isPlainDataObject
 
-Declaration at line 444.
+Declaration at line 445.
 
 <a id="symbol-fa9f996896d1e383e801"></a>
 #### readAliasedValue
 
-Declaration at line 455.
+Declaration at line 456.
 
 <a id="symbol-c15d892a70138fb8151a"></a>
 #### equivalentDeclaredValue
 
-Declaration at line 467.
+Declaration at line 468.
 
 <a id="symbol-b03b4e4fc78ac334b716"></a>
 #### resolveDuplicateField
 
-Declaration at line 473.
+Declaration at line 474.
 
 <a id="symbol-2fecc3d1776743eaef48"></a>
 #### normalizeEnum
 
-Declaration at line 482.
+Declaration at line 483.
 
 <a id="symbol-56eec2104080ba903582"></a>
 #### normalizeBoolean
 
-Declaration at line 489.
+Declaration at line 490.
 
 <a id="symbol-d98c12064d16febca699"></a>
 #### normalizeRfc3339Timestamp
 
-Declaration at line 496.
+Declaration at line 497.
 
 <a id="symbol-b177b4b15536f7ace82c"></a>
 #### deepFreeze
 
-Declaration at line 513.
+Declaration at line 514.
 
 <a id="symbol-944fa2da0a8d1c4c6bba"></a>
 #### createMcpClientRequestError
 
-Declaration at line 618.
+Declaration at line 619.
 
 <a id="symbol-8d77649d0f338c4b0cc6"></a>
 #### sanitizeMcpClientException
 
-Declaration at line 631.
+Declaration at line 632.
 
 <a id="symbol-b6a3e71ceb6d7f93d29d"></a>
 #### sanitizeMcpToolResult
 
-Declaration at line 674.
+Declaration at line 675.
 
 <a id="symbol-2c10837019ef93d70971"></a>
 #### sanitizeMcpBody
 
-Declaration at line 729.
+Declaration at line 730.
 
 <a id="symbol-b6645b0306e340d04208"></a>
 #### sanitizeMcpRecallPack
 
-Declaration at line 767.
+Declaration at line 768.
 
 <a id="symbol-33eec4dd35db1cccfdb2"></a>
 #### sanitizeMcpRecallResult
 
-Declaration at line 781.
+Declaration at line 782.
 
 <a id="symbol-0ed63739ae1fe9bd1a9d"></a>
 #### sanitizeMcpSourceProofs
 
-Declaration at line 803.
+Declaration at line 804.
 
 <a id="symbol-7ef28c55c17beb74f1ab"></a>
 #### sanitizeMcpCounts
 
-Declaration at line 831.
+Declaration at line 832.
 
 <a id="symbol-559a581ca310c2c93e64"></a>
 #### copyFirstUseRestriction
 
-Declaration at line 840.
+Declaration at line 841.
 
 <a id="symbol-6d76e4bd5f15e01838bb"></a>
 #### isSafeMcpQueryRef
 
-Declaration at line 862.
+Declaration at line 863.
 
 <a id="symbol-3340f0ce679c6a19b8de"></a>
 #### isSafeMcpOpaqueWriteId
 
-Declaration at line 867.
+Declaration at line 868.
 
 <a id="symbol-6159f1196fca0d9e1b6f"></a>
 #### sanitizeMcpDiagnostic
 
-Declaration at line 872.
+Declaration at line 873.
 
 <a id="symbol-996eb4e1852abfc802ad"></a>
 #### sanitizeMcpEnum
 
-Declaration at line 878.
+Declaration at line 879.
 
 <a id="symbol-3a4d2bd60776b18214a9"></a>
 #### mcpFingerprint
 
-Declaration at line 883.
+Declaration at line 884.
 
 <a id="symbol-3e1fe208bdf7b3e145ba"></a>
 #### normalizeFingerprintValue
 
-Declaration at line 889.
+Declaration at line 890.
 
 <a id="symbol-d7a081c0411acb15b056"></a>
 #### copyBoolean
 
-Declaration at line 903.
+Declaration at line 904.
 
 <a id="symbol-709b25207eb6a92a39ab"></a>
 #### copyBoundedInteger
 
-Declaration at line 907.
+Declaration at line 908.
 
 <a id="symbol-41884f0cdb5f990330dc"></a>
 #### copyBoundedNumber
 
-Declaration at line 912.
+Declaration at line 913.
 
 <a id="symbol-4149919b199a2636aa1c"></a>
 #### copyEnumOrNull
 
-Declaration at line 917.
+Declaration at line 918.
 
 <a id="symbol-239a6731528553915a27"></a>
 #### isSha256
 
-Declaration at line 926.
+Declaration at line 927.
 
 <a id="symbol-027a035638cd161b8342"></a>
 #### hasOwn
 
-Declaration at line 930.
+Declaration at line 931.
 
 <a id="symbol-5bec9ad1b90a012e939a"></a>
 #### isoPlusSeconds
 
-Declaration at line 936.
+Declaration at line 937.
 
 <a id="symbol-c15292406940ba712a83"></a>
 #### dogfoodProbeMetadata
 
-Declaration at line 942.
+Declaration at line 943.
 
 <a id="symbol-1169b410b288a1d2af39"></a>
 #### createKovyaRecoveryTransport
 
-Declaration at line 962.
+Declaration at line 963.
 
 <a id="symbol-f0630d8b8097bd303e45"></a>
 #### request
 
-Declaration at line 985.
+Declaration at line 986.
 
 <a id="symbol-09ab4453a9ff785db8a1"></a>
 #### createKovyaRecoveryOwnerTransport
 
-Declaration at line 1121.
+Declaration at line 1122.
 
 <a id="symbol-b8e6ac10eb7aa3a1ff0b"></a>
 #### invoke
 
-Declaration at line 1127.
+Declaration at line 1128.
 
 <a id="symbol-4d4ee117afa3941fc21f"></a>
 #### canonicalKovyaRecoveryJson
 
-Declaration at line 1159.
+Declaration at line 1160.
 
 <a id="symbol-ecfa45cdbd6880977807"></a>
 #### canonicalRecoveryValue
 
-Declaration at line 1163.
+Declaration at line 1164.
 
 <a id="symbol-27cf55ab19116c44e4e9"></a>
 #### normalizeKovyaRecoverySigningKeyId
 
-Declaration at line 1193.
+Declaration at line 1194.
 
 <a id="symbol-7ff7b30fd92e122fb74a"></a>
 #### normalizeKovyaRecoveryInstallFingerprint
 
-Declaration at line 1199.
+Declaration at line 1200.
 
 <a id="symbol-53032598637620ced8e2"></a>
 #### isExactKovyaRecoveryResponse
 
-Declaration at line 1206.
+Declaration at line 1207.
 
 <a id="symbol-e1fa11a47f8a6d6c0f15"></a>
 #### readBoundedRecoveryJson
 
-Declaration at line 1217.
+Declaration at line 1218.
 
 <a id="symbol-7c3f513bdbf934e42049"></a>
 #### parseCanonicalRecoveryJson
 
-Declaration at line 1261.
+Declaration at line 1262.
 
 <a id="symbol-8718a655f61cb147522f"></a>
 #### requireExactRecoveryKeys
 
-Declaration at line 1278.
+Declaration at line 1279.
 
 <a id="symbol-7fe0ef59500bbabf28ff"></a>
 #### inspectRecoveryOperationResponse
 
-Declaration at line 1287.
+Declaration at line 1288.
 
 <a id="symbol-19074dde424eb0e31e0f"></a>
 #### inspectRecoveryDeliveryProof
 
-Declaration at line 1334.
+Declaration at line 1335.
 
 <a id="symbol-4acaa9d2878c854d68e0"></a>
 #### hash
 
-Declaration at line 1335.
+Declaration at line 1336.
 
 <a id="symbol-811f721f327253f2ae5c"></a>
 #### inspectRecoveryIntentServerBinding
 
-Declaration at line 1379.
+Declaration at line 1380.
 
 <a id="symbol-b3da153a24c2ef58dfbf"></a>
 #### inspectRecoveryAudienceServerBinding
 
-Declaration at line 1390.
+Declaration at line 1391.
 
 <a id="symbol-f75abb2abc823ce63930"></a>
 #### hash
 
-Declaration at line 1391.
+Declaration at line 1392.
 
 <a id="symbol-875ea7e5dd58d1218179"></a>
 #### inspectRecoveryOwnerResult
 
-Declaration at line 1399.
+Declaration at line 1400.
 
 <a id="symbol-a692c0ff50d4fcdf4f7e"></a>
 #### requireIsoRecoveryTimestamp
 
-Declaration at line 1417.
+Declaration at line 1418.
 
 <a id="symbol-f2e2479aa0d46a069daf"></a>
 #### discardRecoveryResponse
 
-Declaration at line 1425.
+Declaration at line 1426.
 
 <a id="symbol-b74263bdea2ed2ecdaa9"></a>
 #### recoveryTransportError
 
-Declaration at line 1429.
+Declaration at line 1430.
 
 <a id="symbol-757e65a89cfe87153278"></a>
 #### consumerWireNonceHash
 
-Declaration at line 1435.
+Declaration at line 1436.
 
 <a id="symbol-dd5da3e0246fae15afb3"></a>
 #### consumerRequestBodyHash
 
-Declaration at line 1442.
+Declaration at line 1443.
 
 <a id="symbol-18e345f79e4a507c7b19"></a>
 #### consumerRequestSignaturePayload
 
-Declaration at line 1455.
+Declaration at line 1456.
 
 <a id="symbol-23147fd1e0ce5be33bf2"></a>
 #### signConsumerRequest
 
-Declaration at line 1466.
+Declaration at line 1467.
 
 <a id="symbol-331dd800a761b32e6d0c"></a>
 #### signatureStableJson
 
-Declaration at line 1487.
+Declaration at line 1488.
 
 <a id="symbol-6fa8a527f7954303ae69"></a>
 #### signatureSortValue
 
-Declaration at line 1491.
+Declaration at line 1492.
 
 <a id="symbol-c512af9345bf8c8f3b68"></a>
 #### validatePrivateRecallSourceSet
 
-Declaration at line 1498.
+Declaration at line 1499.
 
 <a id="symbol-b52713f1813c49a05a9e"></a>
 #### isNonEmptyString
 
-Declaration at line 1595.
+Declaration at line 1596.
 
 <a id="symbol-b52426c7cb6d187bd535"></a>
 #### isBoundedSourceSpanRef
 
-Declaration at line 1599.
+Declaration at line 1600.
 
 <a id="symbol-5cac3b56e446df4d45cc"></a>
 #### hasValidRecallPackHash
 
-Declaration at line 1605.
+Declaration at line 1606.
 
 <a id="symbol-6155f3e10e603ca420db"></a>
 #### hasValidSourceProofHash
 
-Declaration at line 1612.
+Declaration at line 1613.
 
 <a id="symbol-02df6a5479aae0dbeb4e"></a>
 #### canonicalSourceProofContent
 
-Declaration at line 1617.
+Declaration at line 1618.
 
 <a id="symbol-4349660b710a57f4897a"></a>
 #### isBoundedPrivateText
 
-Declaration at line 1638.
+Declaration at line 1639.
 
 <a id="symbol-37d6965a3efc37399847"></a>
 #### hasNonEmptyPrivateText
 
-Declaration at line 1643.
+Declaration at line 1644.
 
 <a id="symbol-5034cbfdbd0a3ba485ed"></a>
 #### privateMemorySourceFingerprint
 
-Declaration at line 1648.
+Declaration at line 1649.
 
 <a id="symbol-4369d594c2e2f6bb7920"></a>
 #### comparisonObject
 
-Declaration at line 1689.
+Declaration at line 1690.
 
 <a id="symbol-24440261a2867d1e32a4"></a>
 #### comparisonString
 
-Declaration at line 1693.
+Declaration at line 1694.
 
 <a id="symbol-e87f7a16f37999e2cccc"></a>
 #### comparisonEvidence
 
-Declaration at line 1694.
+Declaration at line 1695.
 
 <a id="symbol-7fd57f630bc74a3edd7b"></a>
 #### normalizePrivateMemoryComparison
 
-Declaration at line 1698.
+Declaration at line 1699.
 
 <a id="symbol-e93247bab39dd4cb0533"></a>
 #### runPrivateMemoryComparison
 
-Declaration at line 1740.
+Declaration at line 1741.
 
 <a id="symbol-b73e6abaa5a2f881eb6c"></a>
 #### finish
 
-Declaration at line 1752.
+Declaration at line 1753.
 
 <a id="symbol-eeed9b35998b969f4a37"></a>
 #### collect
 
-Declaration at line 1761.
+Declaration at line 1762.
 
 <a id="symbol-4fbaf1580890704c75fe"></a>
 #### comparisonQuoteMatches
 
-Declaration at line 1864.
+Declaration at line 1865.
 
 <a id="symbol-991691d1aca8ba4020fe"></a>
 #### comparisonHash
 
-Declaration at line 1868.
+Declaration at line 1869.
 
 <a id="symbol-b4f3ba2199a2d13b0b11"></a>
 #### comparisonSourceRestricted
 
-Declaration at line 1870.
+Declaration at line 1871.
 
 <a id="symbol-f436e15fe32e0030d376"></a>
 #### presentPrivateMemoryHostWorkflow
 
-Declaration at line 1895.
+Declaration at line 1896.
 
 
 
@@ -4251,12 +4253,12 @@ Declaration at line 5.
 <a id="symbol-5363368a835f0d114c4f"></a>
 #### dispatchHostEvent
 
-Declaration at line 8.
+Declaration at line 9.
 
 <a id="symbol-357f0c1bfeda6fd49ddd"></a>
 #### transcriptFallback
 
-Declaration at line 29.
+Declaration at line 33.
 
 
 
@@ -4268,32 +4270,32 @@ Declaration at line 29.
 <a id="symbol-e727102ab802856b010e"></a>
 #### identity
 
-Declaration at line 5.
+Declaration at line 6.
 
 <a id="symbol-4341ba0f59a334354fcb"></a>
 #### requireHost
 
-Declaration at line 12.
+Declaration at line 13.
 
 <a id="symbol-53f452ac34c465b9383f"></a>
 #### messageText
 
-Declaration at line 17.
+Declaration at line 18.
 
 <a id="symbol-13f00a607f70f418a7ee"></a>
 #### transcriptExchange
 
-Declaration at line 25.
+Declaration at line 26.
 
 <a id="symbol-51bd24219f29910fc106"></a>
 #### codexAssistant
 
-Declaration at line 38.
+Declaration at line 40.
 
 <a id="symbol-d67ac61058ec2c210bb3"></a>
 #### normalizeCapture
 
-Declaration at line 49.
+Declaration at line 53.
 
 
 
@@ -4805,6 +4807,63 @@ Declaration at line 26.
 
 
 
+<a id="file-9f26befe908a03b97d4e"></a>
+### `plugins/kovya-claude/connector/plugin/transcript-pair.mjs`
+
+[Source](../../../plugins/kovya-claude/connector/plugin/transcript-pair.mjs) Ã‚Â· [Filemap](filemap.md#file-9f26befe908a03b97d4e)
+
+<a id="symbol-ebc78bf957fbf5f81e02"></a>
+#### capturePairFailure
+
+Declaration at line 7.
+
+<a id="symbol-c1c68ae7ffe105e1d92b"></a>
+#### pairError
+
+Declaration at line 14.
+
+<a id="symbol-d8e9469fb51e275b2717"></a>
+#### refuse
+
+Declaration at line 17.
+
+<a id="symbol-2b2e68d273fb2e5b9995"></a>
+#### isMeta
+
+Declaration at line 18.
+
+<a id="symbol-935171c19952effbe78c"></a>
+#### entrySession
+
+Declaration at line 21.
+
+<a id="symbol-d26d5967db4c9a45c15e"></a>
+#### transcriptText
+
+Declaration at line 22.
+
+<a id="symbol-13e281674cefcf118ee7"></a>
+#### isClaudeAssistant
+
+Declaration at line 30.
+
+<a id="symbol-3b8b9f58fdccdf10a0b8"></a>
+#### verifyIntermediateResponses
+
+Declaration at line 33.
+
+<a id="symbol-325a07941dccdfa401a1"></a>
+#### claudeTranscriptExchange
+
+Declaration at line 74.
+
+<a id="symbol-0aa7558b20ad53a72296"></a>
+#### codexTranscriptExchange
+
+Declaration at line 145.
+
+
+
 <a id="file-5b38ac15f58cda64e35f"></a>
 ### `plugins/kovya-claude/connector/plugin/turn-join.mjs`
 
@@ -4865,22 +4924,22 @@ Declaration at line 102.
 <a id="symbol-361a4868ad879003b661"></a>
 #### cleanExit
 
-Declaration at line 17.
+Declaration at line 18.
 
 <a id="symbol-339f8104c242cb0aa44f"></a>
 #### workerRefusal
 
-Declaration at line 18.
+Declaration at line 19.
 
 <a id="symbol-9ce7045a8707925674de"></a>
 #### runWorker
 
-Declaration at line 36.
+Declaration at line 37.
 
 <a id="symbol-3c09cd2795fa5de876ad"></a>
 #### main
 
-Declaration at line 65.
+Declaration at line 66.
 
 
 
@@ -6972,282 +7031,294 @@ Declaration at line 1096.
 <a id="symbol-24df4451ed5a167e4ab2"></a>
 #### createWindowsBrowserAuthorizationTransport
 
-Declaration at line 25.
+Declaration at line 26.
 
 <a id="symbol-a435a22cde0a4f041ca5"></a>
 #### post
 
-Declaration at line 33.
+Declaration at line 34.
 
 <a id="symbol-39f13cc924de5cd3a6b9"></a>
 #### deadlineError
 
-Declaration at line 44.
+Declaration at line 45.
 
 <a id="symbol-d4b36a5b12f9d8edfd22"></a>
 #### check
 
-Declaration at line 49.
+Declaration at line 50.
 
 <a id="symbol-63c74583e5203023c83c"></a>
 #### operation
 
-Declaration at line 52.
+Declaration at line 53.
 
 <a id="symbol-b1fccd02add61eb02357"></a>
 #### createWindowsBrowserLauncher
 
-Declaration at line 77.
+Declaration at line 78.
 
 <a id="symbol-d8ae7361c3a4ede4d746"></a>
 #### createWindowsLoopbackReceiver
 
-Declaration at line 91.
+Declaration at line 92.
 
 <a id="symbol-3017396a371af3c87152"></a>
 #### createWindowsBrowserAuthorizationClient
 
-Declaration at line 173.
+Declaration at line 174.
 
 <a id="symbol-e39f6b9a5db40127f949"></a>
 #### prepareManual
 
-Declaration at line 213.
+Declaration at line 214.
 
 <a id="symbol-294a6f51f90ac0568b57"></a>
 #### prepareAutomatic
 
-Declaration at line 214.
+Declaration at line 215.
 
 <a id="symbol-e432c3f43a4ab377ef46"></a>
 #### prepareAuthorization
 
-Declaration at line 220.
+Declaration at line 221.
 
 <a id="symbol-f68814bf5b54d9054997"></a>
 #### acceptManualStart
 
-Declaration at line 231.
+Declaration at line 232.
 
 <a id="symbol-8569eec6579901b9b03a"></a>
 #### acceptAutomaticStart
 
-Declaration at line 232.
+Declaration at line 233.
 
 <a id="symbol-3c4d3a07ffa7bf48a4ed"></a>
 #### acceptAuthorizationStart
 
-Declaration at line 233.
+Declaration at line 234.
 
 <a id="symbol-78532bce83e40b1a96f9"></a>
 #### manualPending
 
-Declaration at line 265.
+Declaration at line 266.
 
 <a id="symbol-2b4ad0e4befe2c54df84"></a>
 #### prepareManualExchange
 
-Declaration at line 272.
+Declaration at line 273.
 
 <a id="symbol-36fa83dd18f97244fc5a"></a>
 #### acceptManualResult
 
-Declaration at line 294.
+Declaration at line 295.
 
 <a id="symbol-86cff8b6b83691299bea"></a>
 #### openAutomaticReceiver
 
-Declaration at line 308.
+Declaration at line 309.
 
 <a id="symbol-d4e0e545500019e3a3e6"></a>
 #### admissionRecord
 
-Declaration at line 325.
+Declaration at line 326.
 
 <a id="symbol-e78cc53d5ea56d3c994d"></a>
 #### requestAutomaticExchange
 
-Declaration at line 332.
+Declaration at line 333.
 
 <a id="symbol-c3a943a555d9d3570349"></a>
 #### automaticJournal
 
-Declaration at line 343.
+Declaration at line 344.
 
 <a id="symbol-257cfa9f2a35256f9b5d"></a>
 #### prepareAutomaticExchange
 
-Declaration at line 355.
+Declaration at line 356.
 
 <a id="symbol-f69724f35fdcdb41e566"></a>
 #### acceptAutomaticResult
 
-Declaration at line 374.
+Declaration at line 375.
 
 <a id="symbol-7ab9539212e46956d12b"></a>
 #### inspect
 
-Declaration at line 390.
+Declaration at line 391.
 
 <a id="symbol-91af5a0436770d7a05b6"></a>
 #### begin
 
-Declaration at line 396.
+Declaration at line 397.
 
 <a id="symbol-da196d8a1f6cd1104e96"></a>
 #### resumeManual
 
-Declaration at line 452.
+Declaration at line 453.
 
 <a id="symbol-b43f88f85dba13a633ae"></a>
 #### exchange
 
-Declaration at line 469.
+Declaration at line 470.
 
 <a id="symbol-8ee0e7b560860f79e66f"></a>
 #### readProtectedPending
 
-Declaration at line 490.
+Declaration at line 491.
 
 <a id="symbol-a315c7742dd92afba814"></a>
 #### stageExchangeCode
 
-Declaration at line 498.
+Declaration at line 499.
 
 <a id="symbol-c09a73afc9f87600a548"></a>
 #### stageExchangeResult
 
-Declaration at line 509.
+Declaration at line 510.
 
 <a id="symbol-4cdf35a8c6b88365820d"></a>
 #### clearPending
 
-Declaration at line 521.
+Declaration at line 522.
 
 <a id="symbol-3a8b5132af8d20f9c8fb"></a>
 #### validateWindowsBrowserAuthJournal
 
-Declaration at line 528.
+Declaration at line 529.
 
 <a id="symbol-063ea96f5603b3350777"></a>
 #### validateJournal
 
-Declaration at line 529.
+Declaration at line 530.
 
 <a id="symbol-a5b3613c51d41bfb944c"></a>
 #### readJournal
 
-Declaration at line 556.
+Declaration at line 557.
 
 <a id="symbol-4103b9c560f6875a1693"></a>
 #### writeAtomic
 
-Declaration at line 557.
+Declaration at line 558.
 
 <a id="symbol-46fbeb2441ae7495f59d"></a>
 #### recoverAtomic
 
-Declaration at line 566.
+Declaration at line 567.
 
 <a id="symbol-37bf82b3bc1e2a99c051"></a>
 #### removeFile
 
-Declaration at line 570.
+Declaration at line 571.
 
 <a id="symbol-86d79eaa2dd9fcfde080"></a>
 #### fixedResponse
 
-Declaration at line 571.
+Declaration at line 572.
 
 <a id="symbol-737e6f8af432a40116b1"></a>
 #### boundedJson
 
-Declaration at line 572.
+Declaration at line 573.
 
 <a id="symbol-f5844970dd36468cc8bf"></a>
 #### cancel
 
-Declaration at line 576.
+Declaration at line 577.
 
 <a id="symbol-d8be9e8b7d235ab53931"></a>
 #### diagnosticHintClock
 
-Declaration at line 584.
+Declaration at line 585.
 
 <a id="symbol-ad9eb140a57578c7ef5b"></a>
 #### httpsOrigin
 
-Declaration at line 585.
+Declaration at line 586.
 
 <a id="symbol-ff875a4caa146b06562e"></a>
 #### authorizationUrl
 
-Declaration at line 586.
+Declaration at line 587.
 
 <a id="symbol-167810c87813480bb7f5"></a>
 #### manualUrl
 
-Declaration at line 587.
+Declaration at line 588.
 
 <a id="symbol-556751ed9033fbf5a5fe"></a>
 #### loopbackUri
 
-Declaration at line 588.
+Declaration at line 589.
 
 <a id="symbol-49803ff3a2c00df9a3b5"></a>
 #### publicKey
 
-Declaration at line 589.
+Declaration at line 590.
 
 <a id="symbol-57825510d6d4c6001425"></a>
 #### requestIdValue
 
-Declaration at line 590.
+Declaration at line 591.
 
 <a id="symbol-8197eabb29a7e9a2b463"></a>
 #### label
 
-Declaration at line 591.
+Declaration at line 592.
 
 <a id="symbol-28c4fac4fd789cc86f85"></a>
 #### opaque
 
-Declaration at line 592.
+Declaration at line 593.
 
 <a id="symbol-0317654317de97656a58"></a>
 #### manualCode
 
-Declaration at line 593.
+Declaration at line 594.
 
 <a id="symbol-d1c91af653d3f419c938"></a>
 #### entropy
 
-Declaration at line 594.
+Declaration at line 595.
 
 <a id="symbol-3f4f26d2d895a7b9d6c4"></a>
 #### same
 
-Declaration at line 595.
+Declaration at line 596.
 
 <a id="symbol-be2cc46c265a5e7babc7"></a>
 #### sameBytes
 
-Declaration at line 596.
+Declaration at line 597.
 
 <a id="symbol-1523cb4f571c48295033"></a>
 #### validateManualStartTypes
 
-Declaration at line 598.
+Declaration at line 599.
 
 <a id="symbol-41624a2c6199dd78053b"></a>
 #### exactKeys
 
-Declaration at line 608.
+Declaration at line 609.
 
 <a id="symbol-3592c40faecd7c513176"></a>
 #### browserError
 
-Declaration at line 609.
+Declaration at line 610.
+
+
+
+<a id="file-4d967dfb3e1a95767755"></a>
+### `plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-callback-pages.mjs`
+
+[Source](../../../plugins/kovya-claude/runtime/payload/connector/claude-code/client/kovya-windows-callback-pages.mjs) Ã‚Â· [Filemap](filemap.md#file-4d967dfb3e1a95767755)
+
+<a id="symbol-ecc47f5c905ef4adb998"></a>
+#### callbackPage
+
+Declaration at line 4.
 
 
 
@@ -8109,262 +8180,252 @@ No named declarations detected.
 <a id="symbol-8cbabcaf6b688886eff7"></a>
 #### readStdinJson
 
-Declaration at line 172.
+Declaration at line 173.
 
 <a id="symbol-01f6670fc79a78dfdb98"></a>
 #### loadClient
 
-Declaration at line 179.
+Declaration at line 180.
 
 <a id="symbol-5650b257dc92cb2d0910"></a>
 #### hookOperationBudget
 
-Declaration at line 190.
+Declaration at line 191.
 
 <a id="symbol-4c401e2c4a325abb5470"></a>
 #### withTimeout
 
-Declaration at line 200.
+Declaration at line 201.
 
 <a id="symbol-9eebe3499031456672d8"></a>
 #### markerFile
 
-Declaration at line 213.
+Declaration at line 214.
 
 <a id="symbol-2cb46f9dd25c5a2fbc5d"></a>
 #### writeStateMarker
 
-Declaration at line 218.
+Declaration at line 219.
 
 <a id="symbol-f568f94a2a297e95115c"></a>
 #### sameWindowsPath
 
-Declaration at line 235.
+Declaration at line 236.
 
 <a id="symbol-30c10a3331e991c8f687"></a>
 #### ordinaryWindowsPath
 
-Declaration at line 241.
+Declaration at line 242.
 
 <a id="symbol-ffb628428cf14cc600da"></a>
 #### readBoundedStrictJson
 
-Declaration at line 254.
+Declaration at line 255.
 
 <a id="symbol-c044cae5f86f7640fb3a"></a>
 #### exactObjectKeys
 
-Declaration at line 266.
+Declaration at line 267.
 
 <a id="symbol-9b2b0c7219c58f225a03"></a>
 #### hookHandlers
 
-Declaration at line 273.
+Declaration at line 274.
 
 <a id="symbol-fdd06c0d6097172e55f2"></a>
 #### hookProgramReceiptValid
 
-Declaration at line 279.
+Declaration at line 280.
 
 <a id="symbol-24542dcba0eca7b1f177"></a>
 #### codexDispatchBinding
 
-Declaration at line 293.
+Declaration at line 294.
 
 <a id="symbol-0aaecaced15233517d86"></a>
 #### exactCodexHandler
 
-Declaration at line 301.
+Declaration at line 302.
 
 <a id="symbol-3287fd8014b439ff2d6c"></a>
 #### exactClaudeHandler
 
-Declaration at line 313.
+Declaration at line 314.
 
 <a id="symbol-662c735941ef61c35fcc"></a>
 #### resolveInstalledWindowsHookBinding
 
-Declaration at line 324.
+Declaration at line 325.
 
 <a id="symbol-8ad9bae7dd9a514174a5"></a>
 #### windowsHookBindingSourceHost
 
-Declaration at line 408.
+Declaration at line 409.
 
 <a id="symbol-cf2955eb14109ef110f1"></a>
 #### observeWindowsHookReadiness
 
-Declaration at line 412.
+Declaration at line 413.
 
 <a id="symbol-4df25ab73ec0a21488a0"></a>
 #### writeCodexHookDispatchReceipt
 
-Declaration at line 448.
+Declaration at line 449.
 
 <a id="symbol-4dc42c8a9334586475d1"></a>
 #### credentialActivationIdHash
 
-Declaration at line 464.
+Declaration at line 465.
 
 <a id="symbol-7ca6ebc8077c4140d65a"></a>
 #### configuredSigningKeyId
 
-Declaration at line 472.
+Declaration at line 473.
 
 <a id="symbol-079003a4c887c8a54e97"></a>
 #### readAllMarkers
 
-Declaration at line 490.
+Declaration at line 491.
 
 <a id="symbol-c3590bc6741ef7a4a0e9"></a>
 #### readStateMarker
 
-Declaration at line 506.
+Declaration at line 507.
 
 <a id="symbol-bfa4eb37f481afa462c4"></a>
 #### readStateMarkerForSession
 
-Declaration at line 515.
+Declaration at line 516.
 
 <a id="symbol-bb9a512943e2669bd775"></a>
 #### deleteMarkerFile
 
-Declaration at line 523.
+Declaration at line 524.
 
 <a id="symbol-b9327bad17f87c06a88f"></a>
 #### claimMarkerFile
 
-Declaration at line 532.
+Declaration at line 533.
 
 <a id="symbol-cfda3b56a92329d4d478"></a>
 #### releaseMarkerClaim
 
-Declaration at line 537.
+Declaration at line 538.
 
 <a id="symbol-976ad71fed1ea18af41b"></a>
 #### recoverOrphanedMarkerClaims
 
-Declaration at line 550.
+Declaration at line 551.
 
 <a id="symbol-02f712a4f83dc4143d26"></a>
 #### pruneOldMarkers
 
-Declaration at line 573.
+Declaration at line 574.
 
 <a id="symbol-06cdcc23d6fab8e1d1e9"></a>
 #### prepareHookContext
 
-Declaration at line 593.
+Declaration at line 594.
 
 <a id="symbol-972066e77800b0070365"></a>
 #### emitAdditionalContext
 
-Declaration at line 614.
+Declaration at line 615.
 
 <a id="symbol-d3926c4505d5368e8b17"></a>
 #### exitHookCleanly
 
-Declaration at line 627.
+Declaration at line 628.
 
 <a id="symbol-068481eb20d985ec6fc0"></a>
 #### formatRecallPack
 
-Declaration at line 652.
+Declaration at line 653.
 
 <a id="symbol-a1aa71d101844e39f99d"></a>
 #### validatePrivateRecallProjections
 
-Declaration at line 872.
+Declaration at line 873.
 
 <a id="symbol-06af52f37669a98b1640"></a>
 #### escapeRecallDelimiter
 
-Declaration at line 899.
+Declaration at line 900.
 
 <a id="symbol-9a0da734cf9cacd2e9ca"></a>
 #### recallContextFingerprint
 
-Declaration at line 904.
+Declaration at line 905.
 
 <a id="symbol-6668570461588b7d1fe6"></a>
 #### recallContextReason
 
-Declaration at line 910.
+Declaration at line 911.
 
 <a id="symbol-12957861cf1690464b0a"></a>
 #### hookDiagnosticToken
 
-Declaration at line 914.
+Declaration at line 915.
 
 <a id="symbol-5fb2bf1cc5a3e2e8a308"></a>
 #### hookFailureReason
 
-Declaration at line 931.
+Declaration at line 932.
 
 <a id="symbol-259f3bca1f6ad1eed091"></a>
 #### memoryFailureTriage
 
-Declaration at line 959.
+Declaration at line 960.
 
 <a id="symbol-362d7b6d74050f667df5"></a>
 #### hookRepairDirective
 
-Declaration at line 1084.
+Declaration at line 1085.
 
 <a id="symbol-ee422aa3e804e8806604"></a>
 #### hookBannerMessage
 
-Declaration at line 1088.
+Declaration at line 1089.
 
 <a id="symbol-fa579310cc1e501d6c0c"></a>
 #### hookHttpStatus
 
-Declaration at line 1094.
+Declaration at line 1095.
 
 <a id="symbol-246064c34b6bf55a1abe"></a>
 #### hookTimestamp
 
-Declaration at line 1105.
+Declaration at line 1106.
 
 <a id="symbol-4b0ef4c71373baf519f5"></a>
 #### normalizeRecallContextFingerprintValue
 
-Declaration at line 1113.
+Declaration at line 1114.
 
 <a id="symbol-1ff85ddabc2f2aaf75bc"></a>
 #### recallContextEnum
 
-Declaration at line 1132.
+Declaration at line 1133.
 
 <a id="symbol-b6044ebd2789296c1e90"></a>
 #### recallReason
 
-Declaration at line 1136.
+Declaration at line 1137.
 
 <a id="symbol-7e9ec9e98408123c8324"></a>
 #### firstArray
 
-Declaration at line 1144.
+Declaration at line 1145.
 
 <a id="symbol-c292b2321509dfaf02be"></a>
 #### extractRecallRows
 
-Declaration at line 1165.
+Declaration at line 1166.
 
 <a id="symbol-cb65647954962d3a1965"></a>
 #### lastExchangeFromTranscript
 
-Declaration at line 1182.
-
-<a id="symbol-92b9b6e67d7eb0d28f6d"></a>
-#### isCommandWrapperText
-
-Declaration at line 1220.
-
-<a id="symbol-4a80d0a8680cc219b57d"></a>
-#### extractText
-
-Declaration at line 1231.
+Declaration at line 1183.
 
 
 
@@ -8376,462 +8437,462 @@ Declaration at line 1231.
 <a id="symbol-86143f30b73f1aedfdd7"></a>
 #### legacyRecallQueryTokens
 
-Declaration at line 224.
+Declaration at line 225.
 
 <a id="symbol-b093db2f33c9e5dc28d8"></a>
 #### recallQueryTokens
 
-Declaration at line 236.
+Declaration at line 237.
 
 <a id="symbol-1ab5813c9dc022575523"></a>
 #### recallQueryTokenHashes
 
-Declaration at line 248.
+Declaration at line 249.
 
 <a id="symbol-8f870dfacbbf8382990e"></a>
 #### RecallFreshnessContractError
 
-Declaration at line 287.
+Declaration at line 288.
 
 <a id="symbol-44fab3cf8cd53c5e699e"></a>
 #### normalizeRecallFreshnessWireInput
 
-Declaration at line 299.
+Declaration at line 300.
 
 <a id="symbol-d6ebefee7ba18cde0af5"></a>
 #### inferRecallFreshnessPurpose
 
-Declaration at line 362.
+Declaration at line 363.
 
 <a id="symbol-b51dcddb7d1bf6be27e8"></a>
 #### intentForRecallPurpose
 
-Declaration at line 379.
+Declaration at line 380.
 
 <a id="symbol-6052f8ff2a1bad545ee9"></a>
 #### includeHistoryForRecallPurpose
 
-Declaration at line 386.
+Declaration at line 387.
 
 <a id="symbol-16ad8d9156aba6b82af0"></a>
 #### purposeForRecallIntent
 
-Declaration at line 390.
+Declaration at line 391.
 
 <a id="symbol-f7af8a7e3f375d8cc214"></a>
 #### normalizeRecallQueryTokenHashes
 
-Declaration at line 397.
+Declaration at line 398.
 
 <a id="symbol-0e7f32a24b42d98c2172"></a>
 #### hashRecallTokens
 
-Declaration at line 416.
+Declaration at line 417.
 
 <a id="symbol-b17b32414c22e3319e68"></a>
 #### sortedUniqueStrings
 
-Declaration at line 424.
+Declaration at line 425.
 
 <a id="symbol-86169118a02b3e90cd07"></a>
 #### normalizeFreshnessPolicy
 
-Declaration at line 428.
+Declaration at line 429.
 
 <a id="symbol-9e08112657a90a6d2d31"></a>
 #### isPlainDataObject
 
-Declaration at line 444.
+Declaration at line 445.
 
 <a id="symbol-478e2e7310933a92a7d1"></a>
 #### readAliasedValue
 
-Declaration at line 455.
+Declaration at line 456.
 
 <a id="symbol-7cdba39a98f4472abaa2"></a>
 #### equivalentDeclaredValue
 
-Declaration at line 467.
+Declaration at line 468.
 
 <a id="symbol-3e0865892f04214ad51a"></a>
 #### resolveDuplicateField
 
-Declaration at line 473.
+Declaration at line 474.
 
 <a id="symbol-d1e8d6f6ef0874384583"></a>
 #### normalizeEnum
 
-Declaration at line 482.
+Declaration at line 483.
 
 <a id="symbol-a4025693edc0989e7e18"></a>
 #### normalizeBoolean
 
-Declaration at line 489.
+Declaration at line 490.
 
 <a id="symbol-45aea45e7ef803ab1362"></a>
 #### normalizeRfc3339Timestamp
 
-Declaration at line 496.
+Declaration at line 497.
 
 <a id="symbol-2527919f55132a74b128"></a>
 #### deepFreeze
 
-Declaration at line 513.
+Declaration at line 514.
 
 <a id="symbol-a8cd59442f989d8f6b51"></a>
 #### createMcpClientRequestError
 
-Declaration at line 618.
+Declaration at line 619.
 
 <a id="symbol-f612748d50d16de9a778"></a>
 #### sanitizeMcpClientException
 
-Declaration at line 631.
+Declaration at line 632.
 
 <a id="symbol-d9d6c14208ed8efd426c"></a>
 #### sanitizeMcpToolResult
 
-Declaration at line 674.
+Declaration at line 675.
 
 <a id="symbol-b695ef69d403b7a10c69"></a>
 #### sanitizeMcpBody
 
-Declaration at line 729.
+Declaration at line 730.
 
 <a id="symbol-4e60c7a077adfee5722b"></a>
 #### sanitizeMcpRecallPack
 
-Declaration at line 767.
+Declaration at line 768.
 
 <a id="symbol-74d87142f0b223109ba9"></a>
 #### sanitizeMcpRecallResult
 
-Declaration at line 781.
+Declaration at line 782.
 
 <a id="symbol-0e63e29fc33c91ff41a2"></a>
 #### sanitizeMcpSourceProofs
 
-Declaration at line 803.
+Declaration at line 804.
 
 <a id="symbol-fc89759bc5b01a981b66"></a>
 #### sanitizeMcpCounts
 
-Declaration at line 831.
+Declaration at line 832.
 
 <a id="symbol-c57717b2326a12fa89a9"></a>
 #### copyFirstUseRestriction
 
-Declaration at line 840.
+Declaration at line 841.
 
 <a id="symbol-5e44699ce07b9800725b"></a>
 #### isSafeMcpQueryRef
 
-Declaration at line 862.
+Declaration at line 863.
 
 <a id="symbol-f573c54ea7bafebdafb3"></a>
 #### isSafeMcpOpaqueWriteId
 
-Declaration at line 867.
+Declaration at line 868.
 
 <a id="symbol-c320d6a5ab511fb50803"></a>
 #### sanitizeMcpDiagnostic
 
-Declaration at line 872.
+Declaration at line 873.
 
 <a id="symbol-2f92c09e5bb86669dbed"></a>
 #### sanitizeMcpEnum
 
-Declaration at line 878.
+Declaration at line 879.
 
 <a id="symbol-35d7f18dc4557f2fc475"></a>
 #### mcpFingerprint
 
-Declaration at line 883.
+Declaration at line 884.
 
 <a id="symbol-e6b268c97d3dfa4c0d9f"></a>
 #### normalizeFingerprintValue
 
-Declaration at line 889.
+Declaration at line 890.
 
 <a id="symbol-ae905b6561728bb6c1c7"></a>
 #### copyBoolean
 
-Declaration at line 903.
+Declaration at line 904.
 
 <a id="symbol-282483a753e54ce8885d"></a>
 #### copyBoundedInteger
 
-Declaration at line 907.
+Declaration at line 908.
 
 <a id="symbol-86f4b95750d74afce018"></a>
 #### copyBoundedNumber
 
-Declaration at line 912.
+Declaration at line 913.
 
 <a id="symbol-6cd94cf8b83815156d39"></a>
 #### copyEnumOrNull
 
-Declaration at line 917.
+Declaration at line 918.
 
 <a id="symbol-d046240eca606573b9ec"></a>
 #### isSha256
 
-Declaration at line 926.
+Declaration at line 927.
 
 <a id="symbol-a7d09180c1b56fc07917"></a>
 #### hasOwn
 
-Declaration at line 930.
+Declaration at line 931.
 
 <a id="symbol-8993cd9d0c504faf5e7d"></a>
 #### isoPlusSeconds
 
-Declaration at line 936.
+Declaration at line 937.
 
 <a id="symbol-5d7e6907cc88273727e7"></a>
 #### dogfoodProbeMetadata
 
-Declaration at line 942.
+Declaration at line 943.
 
 <a id="symbol-e1793c9d7692c82f6662"></a>
 #### createKovyaRecoveryTransport
 
-Declaration at line 962.
+Declaration at line 963.
 
 <a id="symbol-24e83f19706c73f7d063"></a>
 #### request
 
-Declaration at line 985.
+Declaration at line 986.
 
 <a id="symbol-87da0586f62ccbc824b5"></a>
 #### createKovyaRecoveryOwnerTransport
 
-Declaration at line 1121.
+Declaration at line 1122.
 
 <a id="symbol-908206bedb15a65cd31c"></a>
 #### invoke
 
-Declaration at line 1127.
+Declaration at line 1128.
 
 <a id="symbol-cd6a3e4e6a850b7fd58d"></a>
 #### canonicalKovyaRecoveryJson
 
-Declaration at line 1159.
+Declaration at line 1160.
 
 <a id="symbol-f271a4a6629c2dbfbb66"></a>
 #### canonicalRecoveryValue
 
-Declaration at line 1163.
+Declaration at line 1164.
 
 <a id="symbol-cc50d9b0910a14ee469a"></a>
 #### normalizeKovyaRecoverySigningKeyId
 
-Declaration at line 1193.
+Declaration at line 1194.
 
 <a id="symbol-4378afae612120af6fb4"></a>
 #### normalizeKovyaRecoveryInstallFingerprint
 
-Declaration at line 1199.
+Declaration at line 1200.
 
 <a id="symbol-b6e10afe74f443116d87"></a>
 #### isExactKovyaRecoveryResponse
 
-Declaration at line 1206.
+Declaration at line 1207.
 
 <a id="symbol-289a9f9247b970aeab74"></a>
 #### readBoundedRecoveryJson
 
-Declaration at line 1217.
+Declaration at line 1218.
 
 <a id="symbol-71afa3a0b7f3c902b88c"></a>
 #### parseCanonicalRecoveryJson
 
-Declaration at line 1261.
+Declaration at line 1262.
 
 <a id="symbol-472f8d7d2c9da672e535"></a>
 #### requireExactRecoveryKeys
 
-Declaration at line 1278.
+Declaration at line 1279.
 
 <a id="symbol-3ed97985b2e4f45ad7ee"></a>
 #### inspectRecoveryOperationResponse
 
-Declaration at line 1287.
+Declaration at line 1288.
 
 <a id="symbol-12888481163d4f52da09"></a>
 #### inspectRecoveryDeliveryProof
 
-Declaration at line 1334.
+Declaration at line 1335.
 
 <a id="symbol-6fa231c36ef3d7ea5930"></a>
 #### hash
 
-Declaration at line 1335.
+Declaration at line 1336.
 
 <a id="symbol-3caf2da9ff3d477a4103"></a>
 #### inspectRecoveryIntentServerBinding
 
-Declaration at line 1379.
+Declaration at line 1380.
 
 <a id="symbol-8f304cafec877ff40775"></a>
 #### inspectRecoveryAudienceServerBinding
 
-Declaration at line 1390.
+Declaration at line 1391.
 
 <a id="symbol-7df780af5e5c2d89d729"></a>
 #### hash
 
-Declaration at line 1391.
+Declaration at line 1392.
 
 <a id="symbol-c30c7a1a71bbe290669c"></a>
 #### inspectRecoveryOwnerResult
 
-Declaration at line 1399.
+Declaration at line 1400.
 
 <a id="symbol-8a807f0e19d1c726bec9"></a>
 #### requireIsoRecoveryTimestamp
 
-Declaration at line 1417.
+Declaration at line 1418.
 
 <a id="symbol-5e354065f9a9b9fa2d10"></a>
 #### discardRecoveryResponse
 
-Declaration at line 1425.
+Declaration at line 1426.
 
 <a id="symbol-18fa03ba4009434165cf"></a>
 #### recoveryTransportError
 
-Declaration at line 1429.
+Declaration at line 1430.
 
 <a id="symbol-ceb2d98a3521931e24dd"></a>
 #### consumerWireNonceHash
 
-Declaration at line 1435.
+Declaration at line 1436.
 
 <a id="symbol-9884cf2f3b110672e5ae"></a>
 #### consumerRequestBodyHash
 
-Declaration at line 1442.
+Declaration at line 1443.
 
 <a id="symbol-2bd69c84c0351c91106c"></a>
 #### consumerRequestSignaturePayload
 
-Declaration at line 1455.
+Declaration at line 1456.
 
 <a id="symbol-e51e3d5e2cc29ecd54f2"></a>
 #### signConsumerRequest
 
-Declaration at line 1466.
+Declaration at line 1467.
 
 <a id="symbol-c06354c0c1f467b06b4d"></a>
 #### signatureStableJson
 
-Declaration at line 1487.
+Declaration at line 1488.
 
 <a id="symbol-2bc7b083e2d8ad2a8603"></a>
 #### signatureSortValue
 
-Declaration at line 1491.
+Declaration at line 1492.
 
 <a id="symbol-908824d80e0d94ce1047"></a>
 #### validatePrivateRecallSourceSet
 
-Declaration at line 1498.
+Declaration at line 1499.
 
 <a id="symbol-e691629580c6be2167d3"></a>
 #### isNonEmptyString
 
-Declaration at line 1595.
+Declaration at line 1596.
 
 <a id="symbol-92769d229ed25bed0d33"></a>
 #### isBoundedSourceSpanRef
 
-Declaration at line 1599.
+Declaration at line 1600.
 
 <a id="symbol-01281d6c5f9ba7296394"></a>
 #### hasValidRecallPackHash
 
-Declaration at line 1605.
+Declaration at line 1606.
 
 <a id="symbol-50b770beb6ddb126bcc5"></a>
 #### hasValidSourceProofHash
 
-Declaration at line 1612.
+Declaration at line 1613.
 
 <a id="symbol-462b1b9317b19f182905"></a>
 #### canonicalSourceProofContent
 
-Declaration at line 1617.
+Declaration at line 1618.
 
 <a id="symbol-f17262b9bfdc11a98243"></a>
 #### isBoundedPrivateText
 
-Declaration at line 1638.
+Declaration at line 1639.
 
 <a id="symbol-1fdbbce62398756054fd"></a>
 #### hasNonEmptyPrivateText
 
-Declaration at line 1643.
+Declaration at line 1644.
 
 <a id="symbol-ed19c9e3e24bb7bc59f6"></a>
 #### privateMemorySourceFingerprint
 
-Declaration at line 1648.
+Declaration at line 1649.
 
 <a id="symbol-bf0aec38e510e1fc0226"></a>
 #### comparisonObject
 
-Declaration at line 1689.
+Declaration at line 1690.
 
 <a id="symbol-835450b1955468a9c076"></a>
 #### comparisonString
 
-Declaration at line 1693.
+Declaration at line 1694.
 
 <a id="symbol-fb027458f2e2f1462010"></a>
 #### comparisonEvidence
 
-Declaration at line 1694.
+Declaration at line 1695.
 
 <a id="symbol-964f11dfa5b386619400"></a>
 #### normalizePrivateMemoryComparison
 
-Declaration at line 1698.
+Declaration at line 1699.
 
 <a id="symbol-cb174193b99e36d71107"></a>
 #### runPrivateMemoryComparison
 
-Declaration at line 1740.
+Declaration at line 1741.
 
 <a id="symbol-bf73155dcfca30ea33b6"></a>
 #### finish
 
-Declaration at line 1752.
+Declaration at line 1753.
 
 <a id="symbol-c4b984af636a17df5fdc"></a>
 #### collect
 
-Declaration at line 1761.
+Declaration at line 1762.
 
 <a id="symbol-8f1429bfe2dab1dd181f"></a>
 #### comparisonQuoteMatches
 
-Declaration at line 1864.
+Declaration at line 1865.
 
 <a id="symbol-197e0d54953afa415a0d"></a>
 #### comparisonHash
 
-Declaration at line 1868.
+Declaration at line 1869.
 
 <a id="symbol-85e3666a925eca785386"></a>
 #### comparisonSourceRestricted
 
-Declaration at line 1870.
+Declaration at line 1871.
 
 <a id="symbol-41e0648f466eaf1d89e1"></a>
 #### presentPrivateMemoryHostWorkflow
 
-Declaration at line 1895.
+Declaration at line 1896.
 
 
 
@@ -9165,12 +9226,12 @@ Declaration at line 5.
 <a id="symbol-8213d3ad44d470ee8b0d"></a>
 #### dispatchHostEvent
 
-Declaration at line 8.
+Declaration at line 9.
 
 <a id="symbol-2ef7e1d4913ddf283f39"></a>
 #### transcriptFallback
 
-Declaration at line 29.
+Declaration at line 33.
 
 
 
@@ -9182,32 +9243,32 @@ Declaration at line 29.
 <a id="symbol-517074794e5b2323fd28"></a>
 #### identity
 
-Declaration at line 5.
+Declaration at line 6.
 
 <a id="symbol-606dd52e3d85afeec2b1"></a>
 #### requireHost
 
-Declaration at line 12.
+Declaration at line 13.
 
 <a id="symbol-14b566e81cfc8c1e0c03"></a>
 #### messageText
 
-Declaration at line 17.
+Declaration at line 18.
 
 <a id="symbol-4f429ff59bffcf3dbe37"></a>
 #### transcriptExchange
 
-Declaration at line 25.
+Declaration at line 26.
 
 <a id="symbol-46f9b283e95035d0eff0"></a>
 #### codexAssistant
 
-Declaration at line 38.
+Declaration at line 40.
 
 <a id="symbol-39a8d95d9066cdf70e47"></a>
 #### normalizeCapture
 
-Declaration at line 49.
+Declaration at line 53.
 
 
 
@@ -9692,6 +9753,63 @@ Declaration at line 26.
 
 
 
+<a id="file-859122f7b12fa1fbc339"></a>
+### `plugins/kovya-claude/runtime/payload/connector/plugin/transcript-pair.mjs`
+
+[Source](../../../plugins/kovya-claude/runtime/payload/connector/plugin/transcript-pair.mjs) Ã‚Â· [Filemap](filemap.md#file-859122f7b12fa1fbc339)
+
+<a id="symbol-9571fefcb8bdccc9e345"></a>
+#### capturePairFailure
+
+Declaration at line 7.
+
+<a id="symbol-2b871462552cd0d6af09"></a>
+#### pairError
+
+Declaration at line 14.
+
+<a id="symbol-f8bbf1bc4b8a5195dd42"></a>
+#### refuse
+
+Declaration at line 17.
+
+<a id="symbol-ec9648909f8fa3da3b76"></a>
+#### isMeta
+
+Declaration at line 18.
+
+<a id="symbol-6a50049e84319e9fa7d8"></a>
+#### entrySession
+
+Declaration at line 21.
+
+<a id="symbol-263f9f7d5850718a4c2c"></a>
+#### transcriptText
+
+Declaration at line 22.
+
+<a id="symbol-927b832fb86b7ba9331f"></a>
+#### isClaudeAssistant
+
+Declaration at line 30.
+
+<a id="symbol-12601b07cc64c633b8fb"></a>
+#### verifyIntermediateResponses
+
+Declaration at line 33.
+
+<a id="symbol-089e50994da53935f197"></a>
+#### claudeTranscriptExchange
+
+Declaration at line 74.
+
+<a id="symbol-db286f29a566b8338161"></a>
+#### codexTranscriptExchange
+
+Declaration at line 145.
+
+
+
 <a id="file-d6c645cc74054886cb4b"></a>
 ### `plugins/kovya-claude/runtime/payload/connector/plugin/turn-join.mjs`
 
@@ -9752,22 +9870,22 @@ Declaration at line 102.
 <a id="symbol-e0b5026b23110a9f075e"></a>
 #### cleanExit
 
-Declaration at line 17.
+Declaration at line 18.
 
 <a id="symbol-00b87d2a846fd0244899"></a>
 #### workerRefusal
 
-Declaration at line 18.
+Declaration at line 19.
 
 <a id="symbol-c135c7ea29bddc5998d1"></a>
 #### runWorker
 
-Declaration at line 36.
+Declaration at line 37.
 
 <a id="symbol-8cae6a9a32f1f52f39de"></a>
 #### main
 
-Declaration at line 65.
+Declaration at line 66.
 
 
 
